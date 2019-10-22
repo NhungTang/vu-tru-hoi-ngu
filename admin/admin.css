@@ -58,7 +58,6 @@ a:hover {
 a:active{
     background-color: rgb(26, 32, 58) ;
 }
-
 .button1{
     background-color: rgb(84, 6, 156);
     border: none;
@@ -128,8 +127,8 @@ a:active{
     /* margin-top: 5%; */
 }
 .delete{
-    margin-left: 110%;
-    margin-top: -8%;
+    margin-left: 60%;
+    margin-top: -6%;
 }
 .date{
     margin-left: 70%;
