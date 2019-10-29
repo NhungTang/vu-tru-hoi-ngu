@@ -46,6 +46,15 @@
     
 
 }
+.text-delete{
+    color: black;
+    margin-top: -45%;
+    margin-left: 95%;
+}
+.button-member{
+    margin-left: 55%;
+    margin-top: -13%;
+}
 a:link{
     background-color: rgb(26, 32, 58) ;
     text-decoration: none;
@@ -54,9 +63,15 @@ a:link{
 }
 a:hover {
     background-color:  rgb(34, 40, 63);
+    color: white;
 }
 a:active{
     background-color: rgb(26, 32, 58) ;
+    color: white;
+}
+a:visited{
+    /* background-color: rgb(34, 40, 63) ; */
+    color: white;
 }
 .button1{
     background-color: rgb(84, 6, 156);

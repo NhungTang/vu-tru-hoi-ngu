@@ -1,0 +1,160 @@
+.navbar{
+    background-color: black;
+}
+.avatar{
+
+}
+.name{
+    color: white;
+    margin-left: 5%;
+}
+.col-sm-2{
+    text-align: center;
+}
+.menunav a:link{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.menunav a:hover{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    height: 40%;
+    width: 100%;
+
+}
+.menunav a:active{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    height: 40%;
+    width: 100%;
+
+}
+.content{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.question{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+}
+.text-date{
+    margin-left: 1%;
+}
+.infoMember{
+    margin-top: 1%;
+
+}
+.nameMember{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.mainContent{
+    margin-top: 1%;
+}
+.tag1{
+    margin-left: 2%;
+}
+.tag2{
+    margin-left: 2%;
+}
+.tag3{
+    margin-left: 2%;
+}
+.rep{
+    margin-left: 1%;
+}
+.numberLike{
+    margin-left: 2%;
+    margin-top: 0.25%;
+}
+.textLike{
+    margin-left: 0.5%;
+    margin-top: 0.25%;
+}
+.comment{
+    margin-left: 20%;
+    margin-top: -3.5%;
+}
+.numberCmt{
+    margin-left: 2%;
+    margin-top: 0.25%;
+}
+.textCmt{
+    margin-left: 0.5%;
+    margin-top: 0.25%;
+}
+/* .col-sm-6{
+    text-align: center;
+} */
+#avt{
+    height: 30px;
+    border-radius: 50%;
+}
+#menu{
+    color: white;
+    font-size: 13px;
+}
+#name{
+    color: white;
+    
+}
+#info{
+    margin-left: 10%;
+}
+#diabay{
+    height: 25px;
+}
+#textDate{
+    color: #757575;
+    font-size: 11px;
+}
+#avtMember{
+    height: 50px;
+    border-radius: 50%;
+}
+#nameMember{
+    color: white;
+    font-size: 16px;
+}
+#mainContent{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+#tag{
+    color: #4A4A4A;
+    font-size: 15px;
+    font-weight: bold;
+}
+#iconLike{
+    height: 20px;
+}
+#numberLike{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+#textLike{
+    font-size: 15px;
+    color: #7A7A7A;
+}
+#iconCmt{
+    height: 20px;
+}
+#textCmt{
+    font-size: 15px;
+    color: #7A7A7A;
+}
+#numberCmt{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+#question{
+    margin-top: 3%;
+}
