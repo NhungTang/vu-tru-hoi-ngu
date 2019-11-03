@@ -218,7 +218,7 @@ a.listp:visited{
     background-color: white;
     color: black;
     border: 1px solid white;
-  }
+}
   
 .pagination a:hover:not(.active) {background-color: #ddd;}
 /* .floating{
