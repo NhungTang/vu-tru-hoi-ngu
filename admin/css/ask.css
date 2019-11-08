@@ -1,0 +1,170 @@
+.navbar{
+    background-color: #0C0C0C;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+    position: fixed;
+    width: 100%;
+    height: 8.5%;
+    
+    
+}
+a.menunav:link{
+   background-color: #0C0C0C;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    border-radius: 8%;
+    text-decoration: none;
+    display: inline-block;
+  
+}
+a.menunav:visited{
+    background-color: #0C0C0C;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8%;
+
+}
+ a.menunav:hover{
+    background-color: white;
+    color: black;
+    border-radius: 8%;
+} 
+
+a.menunav:active{
+    background-color: white;
+    color: black;
+    border-radius: 8%;
+    
+}
+.name{
+    color: white;
+    margin-left: 5%;
+}
+
+/* .col-sm-9{
+    position: static;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.col-sm-3{
+    position: static;
+    margin-top: 10%;
+    
+} */
+.text-title{
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+.text-tags{
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+
+}
+.title{
+    height: 35px;
+    width: 95%;
+    padding: 3px 3px;
+}
+.tags{
+    height: 35px;
+    width: 95%;
+    padding: 3px 3px;
+}
+.textarea{
+    height: 200px;
+    width: 95%;
+    padding: 3px 3px;
+    box-sizing: border-box;
+    /* border: 1px solid #ccc; */
+    resize: none;
+}
+.note{
+    height: 420px;
+}
+/* .body{
+      height: 100%;
+    width: 100%; 
+    background-image: url(../photo/bgr2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 4%;
+    background-color: #0C0C0C; 
+
+} */
+.content{
+    height: 100%;
+    width: 100%; 
+    background-image: url(../photo/bgr2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 4%;
+    background-color: #0C0C0C; 
+}
+.bold{
+    height: 25px;
+}
+.list-ta{
+    height: 20px;
+    padding-left: 2%;
+}
+#name:link{
+    text-decoration: none;
+
+}
+#avt{
+    height: 30px;
+    border-radius: 50%;
+}
+.col-sm-2{
+    text-align: center;
+}
+.text-heading{
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+}
+.align{
+    padding-bottom: 3%;
+
+}
+.button{
+    border: none;
+    height: 45px;
+    width: 20%;
+    text-align: center;
+    margin-left: 0%;
+    border-radius: 5px;
+    background:linear-gradient(100deg, #C99CF4, #6387FA);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.submit{
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+#info{
+    margin-left: 10%;
+}
+#menu{
+    
+    font-size: 13px;
+}
+#col-sm-8{
+    position: static;
+    margin-top: 3%;
+    padding-left: 5%;
+}
+#col-sm-4{
+    position: static;
+    margin-top: 3%;
+}
+#ta-3{
+    padding-left: 4%;
+}
