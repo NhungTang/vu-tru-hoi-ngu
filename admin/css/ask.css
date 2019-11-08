@@ -84,6 +84,7 @@ a.menunav:active{
 }
 .note{
     height: 420px;
+    margin-left: -17%;
 }
 /* .body{
       height: 100%;
@@ -160,6 +161,7 @@ a.menunav:active{
     position: static;
     margin-top: 3%;
     padding-left: 5%;
+    /* background-color: #0C0C0C; */
 }
 #col-sm-4{
     position: static;
