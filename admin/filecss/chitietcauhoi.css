@@ -1,0 +1,494 @@
+body{
+    font-family: 'Montserrat';
+}
+.my-nav-bar {
+    background-color: #1B1B1B;
+    color: white;
+    height: 20%;
+    position: relative;
+    display: block;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    list-style-type: none;
+    position: sticky;
+    z-index: 500;
+    box-shadow: 0 3px 5px 0  black;
+}
+
+.canchinh{
+    /* background-color: #6387FA; */
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#button, #button a {
+    color: white;
+    width: 100%;
+    font-size: 85%;
+    height: 45%;
+    margin: 11% 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-align: center;
+    /* background-color: darkblue; */
+    padding:;
+}
+#button:hover {
+    background-color: white;
+    /* font-size: 15px; */
+    border-radius: 12px;
+}
+
+#button:hover a{
+    color: #1B1B1B;
+}
+.row{
+    padding: 0 7.3%;
+}
+#logo{
+    /* background-color: grey; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+#user2, #user2 a {
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+    font-family: 'Montserrat';
+    font-size: 93%;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+#user2:hover a{
+    color: #C99CF4;
+}
+#user1{
+    border-radius: 12px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 2px 5px;
+}
+#user1:hover {
+    background-color: #3D3838;
+}
+img{
+    width: 100%;
+    padding: 50px 0;
+}
+#ava {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0;
+    margin: 0;
+    justify-items: flex-start;
+    margin: 0 14px 0 0;
+}
+
+.bang1{
+    background-color: #3D3838;
+    /* height: 900px; */
+}
+.test1{
+    /* background-color: burlywood; */
+    padding: 60px 0;
+    margin: 0;
+}
+.dong{
+    padding: 0;
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: darksalmon; */
+    height: 3em;
+}
+.dong2{
+    padding: 0;
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: darksalmon; */
+}
+.dong3{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* background-color: darksalmon; */
+}
+.dong4{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 95px;
+}
+.test2{
+    background-color: bisque;
+}
+#gachngang{
+    width: 10%;
+    background-color: #C99CF4;
+    color: #C99CF4;
+    float: left;
+    height: 10%;
+    /* margin: 10px 0; */
+}
+#tieudech{
+    /* background-color: chocolate; */
+    float: left;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: #C99CF4;
+    font-size: 120%;
+    margin: 0 1%;
+}
+#chude{
+    background-color: #C99CF4;
+    padding: 5px 20px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 130%;
+    margin: 0;
+    text-align: center;
+}
+.createque, .createque a{
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: none;
+    color: #1B1B1B;
+    padding: 8px 10px;
+}
+.createque:hover a{
+    color: white; 
+    background-color: #1B1B1B;
+}
+.createque:hover{
+    background-color: #1B1B1B; 
+    border: 2px solid white;
+}
+#binhchon{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    text-align: center;
+}
+#noidungch{
+    /* background-color: ivory; */
+    text-align: inherit;
+    padding: 0 20px;
+    float: right;
+    width: 90%;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: white;
+    font-size: 180%;
+}
+
+.cotthongtin{
+    /* background-color: violet; */
+    float: left;
+    width: 15%;
+    margin-right: 10px;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: white;
+}
+#tentv{
+    color: #C99CF4;
+}
+#tentv:hover {
+    color: #C99CF4;
+}
+.cotthongtin2{
+    /* background-color: violet; */
+    float: left;
+    width: 40%;
+    margin-right: 10px;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: white;
+}
+#chitiet{
+    color: white;
+}
+#ava2 {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #C99CF4;
+    padding: 0;
+    margin: 0;
+    justify-items: flex-start;
+    margin: 0 14px 0 0;
+}
+#ava2:hover{  
+    border: 4px solid white;
+}
+.hashtag{
+    float: left;
+    width: 10%;
+    margin-right: 10px;
+    padding: 0;
+    border: 2px solid gray;
+    border-radius: 12px;
+    text-align: center;
+}
+.hashtag a{
+    color: gainsboro;
+}
+
+.bangcmt{
+    background: #1B1B1B;
+}
+#binhluan{
+    font-size: 180%;
+    color: white;
+}
+#thembl a{
+    color: #C99CF4;
+}
+#thembl a:hover{
+    color: white;
+}
+.kengang1{
+    width: 100%;
+    background-color: #3D3838;
+    float: left;
+    height: 1.5px;
+    margin: 60px 0;    
+}
+#cachchon{
+    color: white;
+    margin-right: 10px;
+}
+.cachbl, .cachbl a{
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: none;
+    color: #1B1B1B;
+    padding: 4px 2px;
+}
+.cachbl:hover a{
+    color: white; 
+    background-color: #1B1B1B;
+}
+.cachbl:hover:hover{
+    background-color: #1B1B1B; 
+    border: 2px solid white;
+}
+/* .cachbl{
+    background-color: white;
+    margin-left: 15px;
+    padding: 3px 10px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cachbl:hover{
+    background-color: #1B1B1B;
+    border: 2px solid white;
+}
+.cachbl a:hover{
+    color: white;
+    text-decoration: none;
+} */
+.comment{
+    text-align: inherit;
+    width: 90%;
+    color: white;
+    /* background-color: wheat; */
+    margin-left: 15px;
+    font-size: 80%;
+}
+.comment2{
+    text-align: inherit;
+    width: 100%;
+    color: white;
+    /* background-color: wheat; */
+    margin-left: 15px;
+    font-size: 80%;
+}
+.cmocm{
+    width: 90%;
+    /* background-color: yellow; */
+}
+#tttvien{
+    margin-left: 15px;
+    color: white;
+}
+#thembl{
+    float: left;
+    margin-right: 50px;
+}
+.cottlsua{
+    /* background-color: thistle; */
+    margin-left: 95px;
+    float: left;
+}
+.cotthanhvien{
+    /* background-color: violet; */
+    float: left;
+    margin-right: 50px;
+    color: white;
+}
+.kengang2{
+    background-color: #3D3838;
+    height: 1.5px;
+    margin: 60px 0;
+    width: 100%;
+    margin-left: 95px;
+}
+.nhapbl{
+    /* background-color: antiquewhite; */
+    width: 100%;
+}
+#gocmt{
+    margin: 40px 0;
+    height: 200px;
+    border-radius: 12px;
+    width: 100%;
+}
+::placeholder{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 90%;
+}
+#buttbl{
+    padding: 5px 10px;
+    background-color: #C99CF4;
+    border-radius: 12px;
+    display: block;
+    margin: 1px 0;
+    margin-bottom: 60px;
+}
+#buttbl a{
+    color: #1B1B1B;
+    font-weight: 600;
+}
+#buttbl a:hover{
+    color: #C99CF4;
+    text-decoration: none;
+}
+#buttbl:hover{
+    background-color: #1B1B1B;
+    border: 2px solid #C99CF4;
+}
+footer{
+    background-color: white;
+    height: 400px;
+}
+.hoha{
+    /* background-color: pink; */
+    width: 100%;
+    margin: 12% 0 0 0;;
+    font-weight: 800;
+    font-size: 150%;
+}
+#readmore{
+    padding: 0;
+    /* background-color: aqua; */
+    position: absolute; 
+    bottom: 10%;
+    height: 10%;
+    color: #C99CF4;
+}
+#readmore:hover{
+    color: #9668D4;
+}
+
+.gachduoi{
+    background-color: #1B1B1B;
+    width: 15%;
+    height: 6%;
+    margin: 2% 0;
+
+}
+.dkiemail{
+    /* background-color: lightblue; */
+    margin: 5% 0;
+}
+.nhapem{
+    /* background-color: lightpink; */
+    display: flex;
+    height: 12%;
+    align-items: center;
+    padding: 0;
+    width: 77%;
+}
+input[type=email] {
+    background-color: #3D3838;
+    color: white;
+    width: 100%;
+    border-radius: 12px;
+    border-style: none;
+    margin: 0;
+    height: 90%;
+    padding: 0 5%;
+    position: relative;
+}
+.butt{
+    margin: 10px 0;
+}
+
+li{
+    margin: 5% 0;
+}
+li a{
+    /* background-color: wheat; */
+    padding: 0;
+    margin: 5% 0;
+    justify-content: start;
+    font-weight: 600;
+    color: #1B1B1B;
+}
+li a:hover{
+    color: gray;
+}
+#tenlh{
+    margin: 5% 0;
+    font-weight: 600;
+    line-height: 2;
+}

@@ -1,0 +1,252 @@
+body{
+    font-family: 'Montserrat';
+}
+.my-nav-bar {
+    background-color: #1B1B1B;
+    color: white;
+    height: 20%;
+    position: relative;
+    display: block;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    list-style-type: none;
+    position: sticky;
+    z-index: 500;
+    box-shadow: 0 3px 5px 0  black;
+}
+
+.canchinh{
+    /* background-color: #6387FA; */
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#button, #button a {
+    color: white;
+    width: 100%;
+    font-size: 85%;
+    height: 45%;
+    margin: 11% 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-align: center;
+    /* background-color: darkblue; */
+    padding:;
+}
+#button:hover {
+    background-color: white;
+    /* font-size: 15px; */
+    border-radius: 12px;
+}
+
+#button:hover a{
+    color: #1B1B1B;
+}
+.row{
+    padding: 0 7.3%;
+}
+#logo{
+    /* background-color: grey; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+#user2, #user2 a {
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+    font-family: 'Montserrat';
+    font-size: 93%;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+#user2:hover a{
+    color: #C99CF4;
+}
+#user1{
+    border-radius: 12px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 2px 5px;
+}
+#user1:hover {
+    background-color: #3D3838;
+}
+img{
+    width: 100%;
+    padding: 50px 0;
+}
+#ava {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0;
+    margin: 0;
+    justify-items: flex-start;
+    margin: 0 14px 0 0;
+}
+
+.bang {
+    background-image: linear-gradient(-90deg, #C99CF4,#6387FA);
+    width: 100%;
+}
+
+.cotanh{
+    width: 100%;
+    padding: 0;
+    height: 700px;
+    margin: 7.3% 0;
+    background: white;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+#avata {
+    vertical-align: middle;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 12px;
+    padding: 0;
+}
+.xemthu{
+    /* background-color: wheat; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+.xemthu2{
+    /* background-color: darkgray; */
+    height: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.cottt{
+    background-color: #3D3838;
+    height: 700px;
+    width: 100%;
+    margin: 7.3% 0;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.aboutme{
+    height: 30%;
+    /* background-color: #6387FA; */
+    text-align: center;
+    padding: 30px 20px;
+    color: white;
+}
+.kengang{
+    width: 100%;
+    height: 1.5px;
+    background-color: whitesmoke;
+}
+.info{
+    height: 70%;
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding: 30px 20px;
+    color: white;
+}
+footer{
+    background-color: white;
+    height: 400px;
+}
+.hoha{
+    /* background-color: pink; */
+    width: 100%;
+    margin: 12% 0 0 0;;
+    font-weight: 800;
+    font-size: 150%;
+}
+#readmore{
+    padding: 0;
+    /* background-color: aqua; */
+    position: absolute; 
+    bottom: 10%;
+    height: 10%;
+    color: #C99CF4;
+}
+#readmore:hover{
+    color: #9668D4;
+}
+
+.gachduoi{
+    background-color: #1B1B1B;
+    width: 15%;
+    height: 6%;
+    margin: 2% 0;
+
+}
+.dkiemail{
+    /* background-color: lightblue; */
+    margin: 5% 0;
+}
+.nhapem{
+    /* background-color: lightpink; */
+    display: flex;
+    height: 12%;
+    align-items: center;
+    padding: 0;
+    width: 77%;
+}
+input[type=email] {
+    background-color: #3D3838;
+    color: white;
+    width: 100%;
+    border-radius: 12px;
+    border-style: none;
+    margin: 0;
+    height: 90%;
+    padding: 0 5%;
+    position: relative;
+}
+.butt{
+    margin: 10px 0;
+}
+li{
+    margin: 5% 0;
+}
+li a{
+    /* background-color: wheat; */
+    padding: 0;
+    justify-content: start;
+    font-weight: 600;
+    color: #1B1B1B;
+}
+li a:hover{
+    color: gray;
+}
+#tenlh{
+    margin: 5% 0;
+    font-weight: 600;
+    line-height: 2;
+}

@@ -1,0 +1,222 @@
+body{
+    font-family: 'Montserrat';
+}
+.my-nav-bar {
+    background-color: #1B1B1B;
+    color: white;
+    height: 20%;
+    position: relative;
+    display: block;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    list-style-type: none;
+    position: sticky;
+    z-index: 500;
+    box-shadow: 0 3px 5px 0  black;
+}
+
+.canchinh{
+    /* background-color: #6387FA; */
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#button, #button a {
+    color: white;
+    width: 100%;
+    font-size: 85%;
+    height: 45%;
+    margin: 11% 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-align: center;
+    /* background-color: darkblue; */
+    padding:;
+}
+#button:hover {
+    background-color: white;
+    /* font-size: 15px; */
+    border-radius: 12px;
+}
+
+#button:hover a{
+    color: #1B1B1B;
+}
+.row{
+    padding: 0 7.3%;
+}
+#logo{
+    /* background-color: grey; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+#user2, #user2 a {
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+    font-family: 'Montserrat';
+    font-size: 93%;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+#user2:hover a{
+    color: #C99CF4;
+}
+#user1{
+    border-radius: 12px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 2px 5px;
+}
+#user1:hover {
+    background-color: #3D3838;
+}
+img{
+    width: 100%;
+    padding: 50px 0;
+}
+#ava {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0;
+    margin: 0;
+    justify-items: flex-start;
+    margin: 0 14px 0 0;
+}
+
+.bang1{
+    background-color: #3D3838;
+    /* height: 900px; */
+}
+.test1{
+    /* background-color: burlywood; */
+    padding-top: 60px;
+    margin: 0;
+}
+.dong{
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: darksalmon; */
+    height: 3em;
+}
+.dong2{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#gachngang{
+    width: 10%;
+    background-color: #C99CF4;
+    color: #C99CF4;
+    float: left;
+    height: 10%;
+    /* margin: 10px 0; */
+}
+#tieudech{
+    /* background-color: chocolate; */
+    float: left;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: #C99CF4;
+    font-size: 120%;
+    margin: 0 1%;
+}
+.bangtao{
+    width: 100%;
+    border-radius: 12px;
+    background-color:#F2F2F2;
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    display: inherit;
+}
+.topic{
+    /* background-color: khaki; */
+    width: 20%;
+}
+.moderoom{
+    /* background-color: lightskyblue; */
+    width: 20%;
+}
+.title{
+    /* background-color: lightblue; */
+    width: 60%;
+}
+.boxtopic{
+    /* background-color: lightcoral; */
+    padding-right: 20px;
+}
+.boxroom{
+    padding-right: 20px;
+}
+.boxtitle{
+    /* background-color: lightpink; */
+    width: 100%;
+    padding: .6rem .5rem;
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+}
+::placeholder{
+    font-style: italic;
+    color: grey;
+}
+.bangnhap, .tags{
+    margin-top: 20px;
+}
+#chonhap{
+    width: 100%;
+    border: 1px solid #ced4da;
+}
+#buttbl{
+    padding: 5px 10px;
+    background-color: #C99CF4;
+    border-radius: 12px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    justify-content: center;
+
+}
+#buttbl a{
+    color: #1B1B1B;
+    font-weight: 600;
+}
+#buttbl a:hover{
+    color: #C99CF4;
+    text-decoration: none;
+}
+#buttbl:hover{
+    background-color: #1B1B1B;
+    border: 2px solid #C99CF4;
+}
