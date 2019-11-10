@@ -277,19 +277,20 @@ a.listp:visited{
     border-radius: 4px;
     font-weight: bold;
     text-decoration: none;
+    border: none;
 }
-a.button-join:link{
+.button-join:link{
     /* background-color: white; */
     color: white;
     border: 0.5px solid white;
 
 }
-a.button-join:visited{
+.button-join:visited{
     /* background-color: white; */
     color: white;
     border: 0.5px solid white;
 }
-a.button-join:active{
+.button-join:active{
     background:linear-gradient(100deg, #C99CF4, #6387FA);
     color: white;
     border: none;
@@ -297,7 +298,7 @@ a.button-join:active{
 
     
 }
-a.button-join:hover{
+.button-join:hover{
     background:linear-gradient(100deg, #C99CF4, #6387FA);
     color: white;
     border: none;
@@ -305,7 +306,105 @@ a.button-join:hover{
 
     
 }
+.password-bt{
+    height: 35px;
+    width: 60%;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.modal-content{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 70%;
+}
+.password{
+    padding-top: 5%;
+    padding-bottom: 10%;
 
+}
+.btn-danger{
+    margin-left: 27%;
+    height: 40px;
+    width: 20%;
+    background-color: #7A7A7A;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: none;
+}
+.btn-success{
+    margin-left: 5%;
+    height: 40px;
+    width: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background:linear-gradient(100deg, #C99CF4, #6387FA);
+    border: none;
+}
+.btn-success:link{
+    /* background-color: white; */
+    color: white;
+    border: 0.5px solid white;
+    
+
+}
+.btn-success:visited{
+    /* background-color: white; */
+    color: white;
+    border: 0.5px solid white;
+    /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
+}
+.btn-success:active{
+    /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
+    color: white;
+    border: none;
+    text-decoration: none;
+
+    
+}
+.btn-success:hover{
+    /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
+    color: white;
+    border: none;
+    text-decoration: none;
+
+    
+}
+
+.btn-danger:link{
+    /* background-color: white; */
+    color: white;
+    border: 0.5px solid white;
+    background-color: #7A7A7A;
+    
+
+}
+.btn-danger:visited{
+    /* background-color: white; */
+    color: white;
+    border: 0.5px solid white;
+    /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
+    background-color: #7A7A7A;
+}
+.btn-danger:active{
+    /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
+    color: white;
+    border: none;
+    text-decoration: none;
+    background-color: #7A7A7A;
+
+    
+}
+.btn-danger:hover{
+    /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
+    color: white;
+    border: none;
+    text-decoration: none;
+    background-color: #7A7A7A;
+
+    
+}
 
 .join{
     text-align: center;

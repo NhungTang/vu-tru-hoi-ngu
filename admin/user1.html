@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/user1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>user1</title>
 </head>
 
@@ -64,7 +67,7 @@
         <div class="create-r">
             <div class="row">
                 <div>
-                    <a class="listp" href="">List</a>
+                    <a class="listp" href="">Room</a>
                 </div>
                 <div class="qtag" id="qtag1">
                     <a href="" class="qtag1" id="tagq">#css</a>
@@ -101,7 +104,7 @@
                             <img src="photo/public.png" alt="public" class="icon-public">
                         </div>
                         <div class="name-room">
-                            <p class="namer">Web rom Q&A</p>
+                            <p class="namer">Web rom Q&Amodal</p>
                         </div>
                         <div class="tag-list">
                             <div class="row">
@@ -116,9 +119,34 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="join">
+                        <!-- <div class="join">
                             <a class="button-join" href="">Join now</a>
+                        </div> -->
+                        <div class="join">
+                            <a href="" class="button-join" data-toggle="modal" data-target="#myModal">Join now</a>
+                        </div>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="text-pass">
+                                        <p>Nhập password để vào room</p>
+                                    </div>
+                                    <div class="password">
+                                        <input type="password" name="pass" class="password-bt">
 
+                                    </div>
+
+                                    <div class="button">
+                                        <div class="row">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-success">Ok</button>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
