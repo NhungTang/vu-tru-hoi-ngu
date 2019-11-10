@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #0C0C0C;
+    background-color: #1B1B1B;
     box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
     position: fixed;
     width: 100%;
@@ -19,34 +19,34 @@ body{
     text-align: center;
 }
 a.menunav:link{
-   background-color: #0C0C0C;
+   background-color: #1B1B1B;
     color: white;
     padding: 5px 7px;
     text-align: center;
-    border-radius: 8%;
+    border-radius: 3px;
     text-decoration: none;
     display: inline-block;
   
 }
 a.menunav:visited{
-    background-color: #0C0C0C;
+    background-color: #1B1B1B;
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 8%;
+    border-radius: 3px;
 
 }
  a.menunav:hover{
     background-color: white;
     color: black;
-    border-radius: 8%;
+    border-radius: 3px;
 } 
 
 a.menunav:active{
     background-color: white;
     color: black;
-    border-radius: 8%;
+    border-radius: 3px;
     
 }
 #name:link{
@@ -62,7 +62,7 @@ a.menunav:active{
 #tag:hover{
     text-decoration: none;
     /* color: white; */
-    background: -webkit-linear-gradient(#6387FA, #C99CF4);
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -72,7 +72,7 @@ a.menunav:active{
 #tagq:hover{
     text-decoration: none;
     /* color: white; */
-    background: -webkit-linear-gradient(#6387FA, #C99CF4);
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -212,7 +212,7 @@ a.listp:visited{
     padding: 8px 16px;
     text-decoration: none;
     transition: background-color .3s;
-    border: 1px solid #0C0C0C;
+    border: 1px solid #1B1B1B;
   }
   
 .pagination a.active {
@@ -247,18 +247,18 @@ a.more-button:visited{
 }
 a.more-button:active{
     text-decoration: none;
-    background: -webkit-linear-gradient(#6387FA, #C99CF4);
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold;
+    font-weight: 350;
 }
 
 a.more-button:hover{
     text-decoration: none;
-    background: -webkit-linear-gradient(#6387FA, #C99CF4);
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold;
+    font-weight: 350;
 }
 .cre-icon{
     height: 25px;
@@ -292,11 +292,11 @@ a.more-button:hover{
 }
 #nameMember{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 #mainContent{
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
 }
 #tag{
@@ -308,7 +308,7 @@ a.more-button:hover{
     height: 20px;
 }
 #numberLike{
-    font-weight: bold;
+    font-weight: 350;
     font-size: 15px;
     color: white;
 }
@@ -324,7 +324,7 @@ a.more-button:hover{
     color: #7A7A7A;
 }
 #numberCmt{
-    font-weight: bold;
+    font-weight: 350;
     font-size: 15px;
     color: white;
 }
@@ -333,7 +333,7 @@ a.more-button:hover{
 }
 #more{
     
-    background: -webkit-linear-gradient(#6387FA, #C99CF4);
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -344,4 +344,8 @@ a.more-button:hover{
     color: #4A4A4A;
     font-size: 16px;
     font-weight: bold;
+}
+#menu{
+    
+    font-size: 13px;
 }
