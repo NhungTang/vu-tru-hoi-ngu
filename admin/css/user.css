@@ -7,6 +7,10 @@
     
     
 }
+body{
+    font-family: Montserrat;
+    font-weight: 400;
+}
 .name{
     color: white;
     margin-left: 5%;
@@ -88,7 +92,7 @@ a.menunav:active{
     
 }
 .listp{
-    font-size: 16px;
+    font-size: 15px;
     
 }
 a.listp:link{
@@ -126,9 +130,6 @@ a.listp:visited{
     border: 1px solid;
     padding: 5px 25px;
 
-}
-.cre{
-    
 }
 
 .question{

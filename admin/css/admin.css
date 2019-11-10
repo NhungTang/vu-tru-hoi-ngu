@@ -3,6 +3,10 @@
     margin-left: 0px;
     margin-right: 0px;
 }
+body{
+    font-family: Montserrat;
+    font-weight: 400;
+}
 
 .col-sm-9{
    text-align: left;
