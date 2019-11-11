@@ -1,4 +1,4 @@
-body{
+body, footer{
     font-family: 'Montserrat';
 }
 .my-nav-bar {
@@ -6,7 +6,6 @@ body{
     color: white;
     height: 20%;
     position: relative;
-    display: block;
     width: 100%;
     top: 0;
     overflow: hidden;
@@ -14,6 +13,7 @@ body{
     position: sticky;
     z-index: 500;
     box-shadow: 0 3px 5px 0  black;
+
 }
 
 .canchinh{
@@ -28,16 +28,16 @@ body{
 
 #button, #button a {
     color: white;
-    width: 100%;
-    font-size: 85%;
-    height: 45%;
-    margin: 11% 6%;
+    width: 80%;
+    font-size: 90%;
+    height: 30%;
+    margin: 8% 6%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     font-family: 'Montserrat';
-    font-weight: 600;
+    font-weight: 800;
     text-align: center;
     /* background-color: darkblue; */
     padding:;
@@ -45,13 +45,13 @@ body{
 #button:hover {
     background-color: white;
     /* font-size: 15px; */
-    border-radius: 12px;
+    border-radius: 5px;
 }
 
 #button:hover a{
     color: #1B1B1B;
 }
-.row{
+.hang{
     padding: 0 7.3%;
 }
 #logo{
@@ -80,10 +80,10 @@ body{
     padding: 0;
 }
 #user2:hover a{
-    color: #C99CF4;
+    color: #ff8a00;
 }
 #user1{
-    border-radius: 12px;
+    border-radius: 10px;
     display: flex;
     background-color: white;
     align-items: center;
@@ -93,10 +93,6 @@ body{
 }
 #user1:hover {
     background-color: #3D3838;
-}
-img{
-    width: 100%;
-    padding: 50px 0;
 }
 #ava {
     vertical-align: middle;
@@ -152,14 +148,20 @@ img{
     display: flex;
     align-items: center;
     margin-left: 95px;
+    margin-top: 20px;
+    /* background-color: turquoise; */
 }
 .test2{
-    background-color: bisque;
+    padding: 0;
+    width: 200px;
+    background-image: url("anhdai-02.png");
+    background-repeat: repeat;
+    background-size: 100%;
 }
 #gachngang{
     width: 10%;
-    background-color: #C99CF4;
-    color: #C99CF4;
+    background-image: linear-gradient(90deg, #e52e71,#ff8a00);
+    color: #ff8a00;
     float: left;
     height: 10%;
     /* margin: 10px 0; */
@@ -169,12 +171,12 @@ img{
     float: left;
     font-family: 'Montserrat';
     font-weight: 800;
-    color: #C99CF4;
+    color: #ff8a00;
     font-size: 120%;
     margin: 0 1%;
 }
 #chude{
-    background-color: #C99CF4;
+    background-image: linear-gradient(90deg, #e52e71,#ff8a00);
     padding: 5px 20px;
     font-family: 'Montserrat';
     font-weight: 800;
@@ -182,35 +184,34 @@ img{
     margin: 0;
     text-align: center;
 }
-/* .createque, .createque a{
-    background-color: white;
-    margin: 0 10px;
-    border-radius: 30px;
-    text-align: center;
-    font-weight: 800;
-    text-decoration: none;
-    color: #1B1B1B;
-    padding: 8px 10px;
-}
-.createque:hover a{
-    color: white; 
-    background-color: #1B1B1B;
-}
-.createque:hover{
-    background-color: #1B1B1B; 
-    border: 2px solid white;
-} */
 .trangthai{
     color: white;
     font-weight: 600;
     margin: 0 20px;
 }
-#binhchon{
+/* #binhchon{
     background-color: white;
     width: 80px;
     height: 80px;
-    border-radius: 12px;
+    border-radius: 50%;
     text-align: center;
+    align-items: center;
+} */
+
+#ava3 {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 0;
+    margin: 0;
+    justify-items: flex-start;
+}
+#tim{
+    font-size: 300%;
+    padding-right: 10px;
+    color: #ff8a00;
 }
 #noidungch{
     /* background-color: ivory; */
@@ -222,6 +223,11 @@ img{
     font-weight: 800;
     color: white;
     font-size: 180%;
+}
+#tieuderoom{
+    font-weight: 600;
+    font-size: 150%;
+    color: white;
 }
 
 .cotthongtin{
@@ -235,10 +241,13 @@ img{
     color: white;
 }
 #tentv{
-    color: #C99CF4;
+    color: white;
 }
 #tentv:hover {
-    color: #C99CF4;
+    color: #ff8a00;
+}
+.fas{
+    padding-left: 10px;
 }
 .cotthongtin2{
     /* background-color: violet; */
@@ -258,15 +267,28 @@ img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 4px solid #C99CF4;
+    border: 4px solid white;
     padding: 0;
     margin: 0;
     justify-items: flex-start;
     margin: 0 14px 0 0;
 }
-#ava2:hover{  
-    border: 4px solid white;
+#ava2:hover{
+    border: 4px solid #ff8a00;
 }
+#ava3{
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid white;
+    padding: 0;
+    margin: 0;
+}
+#ava3:hover{
+    border: 5px solid #ff8a00;
+}
+
 .hashtag{
     float: left;
     width: 10%;
@@ -288,7 +310,7 @@ img{
     color: white;
 }
 #thembl a{
-    color: #C99CF4;
+    color: #ff8a00;
 }
 #thembl a:hover{
     color: white;
@@ -386,8 +408,8 @@ img{
     width: 100%;
     margin-left: 95px;
 }
-.nhapbl{
-    /* background-color: antiquewhite; */
+.nhapch{
+    /* nhapblbackground-color: antiquewhite; */
     width: 100%;
 }
 #gocmt{
@@ -401,29 +423,33 @@ img{
     font-weight: 400;
     font-size: 90%;
 }
-#buttbl{
+#buttch{
     padding: 5px 10px;
-    background-color: #C99CF4;
+    background-color: #ff8a00;
     border-radius: 12px;
     display: block;
     margin: 1px 0;
     margin-bottom: 60px;
 }
-#buttbl a{
+#buttch a{
     color: #1B1B1B;
     font-weight: 600;
 }
-#buttbl a:hover{
-    color: #C99CF4;
+#buttch a:hover{
+    color: #ff8a00;
     text-decoration: none;
 }
-#buttbl:hover{
+#buttch:hover{
     background-color: #1B1B1B;
-    border: 2px solid #C99CF4;
+    border: 2px solid #ff8a00;
 }
 footer{
     background-color: white;
     height: 400px;
+}
+::placeholder{
+    font-style: italic;
+    color: grey;
 }
 .hoha{
     /* background-color: pink; */
@@ -438,7 +464,7 @@ footer{
     position: absolute; 
     bottom: 10%;
     height: 10%;
-    color: #C99CF4;
+    color: #ff8a00;
 }
 #readmore:hover{
     color: #9668D4;
