@@ -10,7 +10,7 @@
 .welcome{
     text-decoration: none;
     /* color: white; */
-    background: -webkit-linear-gradient(#6387FA, #C99CF4);
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -26,8 +26,10 @@
 .login-area{
     height: 45px;
     width: 70%;
-    background-color: #0C0C0C;
+    background-color: #1B1B1B;
     border: none;
+    color: white;
+    padding-left: 5%;
 }
 .submit-login{
     border: none;
@@ -36,7 +38,7 @@
     text-align: center;
     margin-left: 4%;
     border-radius: 50px;
-    background:linear-gradient(100deg, #C99CF4, #6387FA);
+    background:linear-gradient(100deg, #e52e71, #ff8a00);
     color: white;
     font-size: 17px;
     font-weight: bold;
@@ -60,12 +62,15 @@
 .text-up{
     color: white;
     font-size: 15px;
+    /* padding-left: 5%; */
 }
 .up-area{
     height: 40px;
     width: 70%;
-    background-color: #0C0C0C;
+    background-color: #1B1B1B;
     border: none;
+    color: white;
+    padding-left: 5%;
 
 }
 /* .form{
@@ -79,9 +84,10 @@
     text-align: center;
     /* margin-left: 4%; */
     border-radius: 5px;
-    background:linear-gradient(100deg, #C99CF4, #6387FA);
+    background:linear-gradient(100deg, #e52e71, #ff8a00);
     color: white;
     font-size: 17px;
     font-weight: bold;
+    padding-left: 5%;
 
 }

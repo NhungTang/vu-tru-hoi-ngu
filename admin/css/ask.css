@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #0C0C0C;
+    background-color: #1B1B1B;
     box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
     position: fixed;
     width: 100%;
@@ -7,35 +7,39 @@
     
     
 }
+body{
+    font-family: Montserrat;
+    font-weight: 400;
+}
 a.menunav:link{
-   background-color: #0C0C0C;
+   background-color: #1B1B1B;
     color: white;
     padding: 5px 7px;
     text-align: center;
-    border-radius: 8%;
+    border-radius: 3px;
     text-decoration: none;
     display: inline-block;
   
 }
 a.menunav:visited{
-    background-color: #0C0C0C;
+    background-color: #1B1B1B;
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 8%;
+    border-radius: 3px;
 
 }
  a.menunav:hover{
     background-color: white;
     color: black;
-    border-radius: 8%;
+    border-radius: 3px;
 } 
 
 a.menunav:active{
     background-color: white;
     color: black;
-    border-radius: 8%;
+    border-radius: 3px;
     
 }
 .name{
@@ -105,7 +109,7 @@ a.menunav:active{
     background-size: 100%;
     background-position: center;
     padding-top: 4%;
-    background-color: #0C0C0C; 
+    background-color: #1B1B1B; 
 }
 .bold{
     height: 25px;
@@ -141,10 +145,10 @@ a.menunav:active{
     text-align: center;
     margin-left: 0%;
     border-radius: 5px;
-    background:linear-gradient(100deg, #C99CF4, #6387FA);
+    background:linear-gradient(100deg, #e52e71, #ff8a00);
     color: white;
     font-size: 17px;
-    font-weight: bold;
+    font-weight: 550;
 }
 .submit{
     padding-top: 2%;
