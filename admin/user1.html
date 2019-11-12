@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/user1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800,400i&display=swap&subset=vietnamese"
+    rel="stylesheet">
+    <title>user1</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="col-sm-4">
+            <img src="photo/icon.png" alt="icon" style="height: 35px;">
+        </div>
+        <div class="col-sm-8">
+            <div class="row">
+                <div class="col-sm-2">
+                    <a class="menunav" href="trangchu.html" id="menu"><b>TRANG CHỦ</b></a>
+
+                </div>
+                <div class="col-sm-2">
+                    <a class="menunav" href="user.html" id="menu"><b>CÂU HỎI</b></a>
+
+                </div>
+                <div class="col-sm-2">
+                    <a class="menunav" href="user1.html" id="menu"><b>ROOM Q&A</b></a>
+
+                </div>
+                <div class="col-sm-2">
+                    <a class="menunav" href="" id="menu"><b>BLOGS</b></a>
+
+                </div>
+                <!-- <div class="col-sm-1">
+                            <a class="upload" href=""> 
+                                <img src="ask.png" alt="upload" style="height: 23px;">
+                            </a>
+        
+                        </div> -->
+                <div class="col-sm-4">
+                    <div class="row" id="info">
+                        <div class="avatar">
+                            <a href="canhan.html">
+                                <img src="photo/khunglong.jpg" alt="avtar" id="avt">
+
+                            </a>
+                        </div>
+                        <div class="name">
+                            <a id="name" href="canhan.html">Tang Nhung</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+    <div class="content">
+        <div class="create-r">
+            <div class="row">
+                <div>
+                    <a class="listp" href="user1.html">Room</a>
+                </div>
+                <div class="qtag" id="qtag1">
+                    <a href="" class="qtag1" id="tagq">#css</a>
+                </div>
+                <div class="qtag">
+                    <a href="" class="qtag2" id="tagq">#java</a>
+                </div>
+                <div class="qtag">
+                    <a href="" class="qtag3" id="tagq">#web</a>
+                </div>
+                <div class="qtag">
+                    <a href="" class="qtag4" id="tagq">#css</a>
+                </div>
+                <div class="qtag">
+                    <a href="" class="qtag5" id="tagq">#java</a>
+                </div>
+                <div class="qtag">
+                    <a href="" class="qtag6" id="tagq">#web</a>
+                </div>
+                <div class="crep">
+                    <a class="cre" href="taoqa.html"><img src="photo/cre.png" class="cre-icon"></a>
+                </div>
+            </div>
+        </div>
+        <div class="room-list">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="room">
+                        <div class="img">
+                            <img src="photo/room1.png" alt="room1" class="room-img">
+
+                        </div>
+                        <div class="see">
+                            <img src="photo/public.png" alt="public" class="icon-public">
+                        </div>
+                        <div class="name-room">
+                            <p class="namer">Web rom Q&Amodal</p>
+                        </div>
+                        <div class="tag-list">
+                            <div class="row">
+                                <div class="tag-room">
+                                    <a href="" class="tagr1" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr2" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr3" id="tagr">#java</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="join">
+                            <a class="button-join" href="">Join now</a>
+                        </div> -->
+                        <div class="join">
+                            <a href="" class="button-join" data-toggle="modal" data-target="#myModal">Join now</a>
+                        </div>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="text-pass">
+                                        <p>Nhập password để vào room</p>
+                                    </div>
+                                    <div class="password">
+                                        <input type="password" name="pass" class="password-bt">
+
+                                    </div>
+
+                                    <div class="button">
+                                        <div class="row">
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-success">Ok</button>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="room">
+                        <div class="img">
+                            <img src="photo/room2.png" alt="room1" class="room-img">
+
+                        </div>
+                        <div class="see">
+                            <img src="photo/private.png" alt="public" class="icon-public">
+                        </div>
+                        <div class="name-room">
+                            <p class="namer">Web rom Q&A</p>
+                        </div>
+                        <div class="tag-list">
+                            <div class="row">
+                                <div class="tag-room">
+                                    <a href="" class="tagr1" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr2" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr3" id="tagr">#java</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="join">
+                            <a class="button-join" href="">Join now</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="room">
+                        <div class="img">
+                            <img src="photo/room3.png" alt="room1" class="room-img">
+
+                        </div>
+                        <div class="see">
+                            <img src="photo/public.png" alt="public" class="icon-public">
+                        </div>
+                        <div class="name-room">
+                            <p class="namer">Web rom Q&A</p>
+                        </div>
+                        <div class="tag-list">
+                            <div class="row">
+                                <div class="tag-room">
+                                    <a href="" class="tagr1" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr2" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr3" id="tagr">#java</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="join">
+                            <a class="button-join" href="">Join now</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="room">
+                        <div class="img">
+                            <img src="photo/room4.png" alt="room1" class="room-img">
+
+                        </div>
+                        <div class="see">
+                            <img src="photo/public.png" alt="public" class="icon-public">
+                        </div>
+                        <div class="name-room">
+                            <p class="namer">Web rom Q&A</p>
+                        </div>
+                        <div class="tag-list">
+                            <div class="row">
+                                <div class="tag-room">
+                                    <a href="" class="tagr1" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr2" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr3" id="tagr">#java</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="join">
+                            <a class="button-join" href="">Join now</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row" style="margin-top: 10%;">
+                <div class="col-sm-3">
+                    <div class="room">
+                        <div class="img">
+                            <img src="photo/room5.png" alt="room1" class="room-img">
+
+                        </div>
+                        <div class="see">
+                            <img src="photo/public.png" alt="public" class="icon-public">
+                        </div>
+                        <div class="name-room">
+                            <p class="namer">Web rom Q&A</p>
+                        </div>
+                        <div class="tag-list">
+                            <div class="row">
+                                <div class="tag-room">
+                                    <a href="" class="tagr1" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr2" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr3" id="tagr">#java</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="join">
+                            <a class="button-join" href="">Join now</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="room">
+                        <div class="img">
+                            <img src="photo/room6.png" alt="room1" class="room-img">
+
+                        </div>
+                        <div class="see">
+                            <img src="photo/public.png" alt="public" class="icon-public">
+                        </div>
+                        <div class="name-room">
+                            <p class="namer">Web rom Q&A</p>
+                        </div>
+                        <div class="tag-list">
+                            <div class="row">
+                                <div class="tag-room">
+                                    <a href="" class="tagr1" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr2" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr3" id="tagr">#java</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="join">
+                            <a class="button-join" href="">Join now</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="room">
+                        <div class="img">
+                            <img src="photo/room7.png" alt="room1" class="room-img">
+
+                        </div>
+                        <div class="see">
+                            <img src="photo/public.png" alt="public" class="icon-public">
+                        </div>
+                        <div class="name-room">
+                            <p class="namer">Web rom Q&A</p>
+                        </div>
+                        <div class="tag-list">
+                            <div class="row">
+                                <div class="tag-room">
+                                    <a href="" class="tagr1" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr2" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr3" id="tagr">#java</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="join">
+                            <a class="button-join" href="">Join now</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="room">
+                        <div class="img">
+                            <img src="photo/room8.png" alt="room1" class="room-img">
+
+                        </div>
+                        <div class="see">
+                            <img src="photo/public.png" alt="public" class="icon-public">
+                        </div>
+                        <div class="name-room">
+                            <p class="namer">Web rom Q&A</p>
+                        </div>
+                        <div class="tag-list">
+                            <div class="row">
+                                <div class="tag-room">
+                                    <a href="" class="tagr1" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr2" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr3" id="tagr">#java</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="join">
+                            <a class="button-join" href="">Join now</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row" style="margin-top: 10%;">
+                <div class="col-sm-3">
+                    <div class="room">
+                        <div class="img">
+                            <img src="photo/room9.png" alt="room1" class="room-img">
+
+                        </div>
+                        <div class="see">
+                            <img src="photo/public.png" alt="public" class="icon-public">
+                        </div>
+                        <div class="name-room">
+                            <p class="namer">Web rom Q&A</p>
+                        </div>
+                        <div class="tag-list">
+                            <div class="row">
+                                <div class="tag-room">
+                                    <a href="" class="tagr1" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr2" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr3" id="tagr">#java</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="join">
+                            <a class="button-join" href="">Join now</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="room">
+                        <div class="img">
+                            <img src="photo/room3.png" alt="room1" class="room-img">
+
+                        </div>
+                        <div class="see">
+                            <img src="photo/public.png" alt="public" class="icon-public">
+                        </div>
+                        <div class="name-room">
+                            <p class="namer">Web rom Q&A</p>
+                        </div>
+                        <div class="tag-list">
+                            <div class="row">
+                                <div class="tag-room">
+                                    <a href="" class="tagr1" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr2" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr3" id="tagr">#java</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="join">
+                            <a class="button-join" href="">Join now</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="room">
+                        <div class="img">
+                            <img src="photo/room2.png" alt="room1" class="room-img">
+
+                        </div>
+                        <div class="see">
+                            <img src="photo/public.png" alt="public" class="icon-public">
+                        </div>
+                        <div class="name-room">
+                            <p class="namer">Web rom Q&A</p>
+                        </div>
+                        <div class="tag-list">
+                            <div class="row">
+                                <div class="tag-room">
+                                    <a href="" class="tagr1" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr2" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr3" id="tagr">#java</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="join">
+                            <a class="button-join" href="">Join now</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="room">
+                        <div class="img">
+                            <img src="photo/room1.png" alt="room1" class="room-img">
+
+                        </div>
+                        <div class="see">
+                            <img src="photo/public.png" alt="public" class="icon-public">
+                        </div>
+                        <div class="name-room">
+                            <p class="namer">Web rom Q&A</p>
+                        </div>
+                        <div class="tag-list">
+                            <div class="row">
+                                <div class="tag-room">
+                                    <a href="" class="tagr1" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr2" id="tagr">#css</a>
+                                </div>
+                                <div class="tag-room">
+                                    <a href="" class="tagr3" id="tagr">#java</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="join">
+                            <a class="button-join" href="">Join now</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+        </div>
+    </div>
+
+
+</body>
