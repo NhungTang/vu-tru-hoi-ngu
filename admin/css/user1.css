@@ -1,114 +1,15 @@
-.my-nav-bar {
+.navbar{
     background-color: #1B1B1B;
-    color: white;
-    height: 20%;
-    position: relative;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+    position: fixed;
     width: 100%;
-    top: 0;
-    overflow: hidden;
-    list-style-type: none;
-    position: sticky;
-    z-index: 500;
-    box-shadow: 0 3px 5px 0  black;
-
+    height: 8.5%;
+    
+    
 }
 body{
     font-family: Montserrat;
     font-weight: 400;
-}
-.canchinh{
-    /* background-color: #6387FA; */
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-}
-
-#button, #button a {
-    color: white;
-    width: 80%;
-    font-size: 90%;
-    height: 30%;
-    margin: 8% 6%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-family: 'Montserrat';
-    font-weight: 800;
-    text-align: center;
-    /* background-color: darkblue; */
-    padding:;
-}
-#button:hover {
-    background-color: white;
-    /* font-size: 15px; */
-    border-radius: 5px;
-}
-
-#button:hover a{
-    color: #1B1B1B;
-}
-.hang{
-    padding: 0 7.3%;
-}
-#logo{
-    /* background-color: grey; */
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    color: white;
-    font-family: 'Montserrat';
-    font-weight: 800;
-    font-size: 40px;
-    padding: 0;
-    margin: 0;
-}
-#user2, #user2 a {
-    /* background-color: grey; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: #1B1B1B;
-    font-family: 'Montserrat';
-    font-size: 93%;
-    font-weight: 500;
-    margin: 0;
-    padding: 0;
-}
-#user2:hover a{
-    color: #ff8a00;
-}
-#user1{
-    border-radius: 5px;
-    display: flex;
-    background-color: white;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    padding: 2px 5px;
-}
-#user1:hover {
-    background-color: #3D3838;
-}
-img{
-    width: 100%;
-    padding: 50px 0;
-}
-#ava {
-    vertical-align: middle;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 2px;
-    padding: 0;
-    margin: 0;
-    justify-items: flex-start;
-    margin: 0 14px 0 0;
 }
 .name{
     color: white;
@@ -194,7 +95,37 @@ a.listr:link{
      
      
  }
-
+a.menunav:link{
+    background-color: #1B1B1B;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+   
+ }
+ a.menunav:visited{
+    background-color: #1B1B1B;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+ 
+ }
+a.menunav:hover{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+} 
+ 
+a.menunav:active{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+     
+}
 .room{
     background-color: #1B1B1B ;
     border-radius: 5%;
@@ -226,11 +157,11 @@ a.listr:link{
 }
 .room-img{
     /* height: 40% */
-    /* background-color: antiquewhite; */
-    width: 100%;
-    padding: ;
+    width: 80%;
+    margin-left: 4%;
+    margin-top: 4%;
 }
-.name-room {
+.name-room{
     margin-left: 8%;
     margin-top: -10%;
 }
@@ -395,15 +326,24 @@ a.listp:visited{
 .password{
     padding-top: 5%;
     padding-bottom: 10%;
+
 }
 .btn-danger{
     margin-left: 27%;
     height: 40px;
     width: 20%;
-    background-color: #7A7A7A;
-    padding-left: 5%;
-    padding-right: 5%;
-    border: none;
+    /* background-color: #7A7A7A; */
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    /* border: none; */
+    text-align: center;
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid linear-gradient(100deg, #e52e71, #ff8a00);
+    background-color: white;
+    font-weight: 600;
+    /* border-color:linear-gradient(100deg, #e52e71, #ff8a00) ; */
 }
 .btn-success{
     margin-left: 5%;
@@ -446,34 +386,42 @@ a.listp:visited{
 
 .btn-danger:link{
     /* background-color: white; */
-    color: white;
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     border: 0.5px solid white;
-    background-color: #7A7A7A;
+    background-color: white;
     
 
 }
 .btn-danger:visited{
     /* background-color: white; */
-    color: white;
-    border: 0.5px solid white;
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 0.5px solid #e52e71;
     /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
-    background-color: #7A7A7A;
+    background-color: white;
 }
 .btn-danger:active{
     /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
-    color: white;
-    border: none;
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* border: none; */
     text-decoration: none;
-    background-color: #7A7A7A;
+    background-color: white;
 
     
 }
 .btn-danger:hover{
     /* background:linear-gradient(100deg, #C99CF4, #6387FA); */
-    color: white;
-    border: none;
+    background: -webkit-linear-gradient(#e52e71, #ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* border: none; */
     text-decoration: none;
-    background-color: #7A7A7A;
+    background-color: white;
 
     
 }
