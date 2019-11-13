@@ -1,3 +1,124 @@
+/* navbar của duyên */
+.my-nav-bar {
+    background-color: #1B1B1B;
+    color: white;
+    position: relative;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    list-style-type: none;
+    position: sticky;
+    z-index: 500;
+    box-shadow: 0 3px 5px 0  black; 
+}
+
+.canchinh{
+    /* background-color: #6387FA; */
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#button, #button a {
+    color: white;
+    width: 80%;
+    font-size: 90%;
+    height: 30%;
+    margin: 8% 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    text-align: center;
+    /* background-color: darkblue; */
+    /* padding:; */
+}
+#button:hover {
+    background-color: white;
+    /* font-size: 15px; */
+    border-radius: 5px;
+}
+
+#button:hover a{
+    color: #1B1B1B;
+}
+.hang{
+    margin: -2% 7.3%;
+    /* margin-top: -2%; */
+}
+#sua{
+    padding: 0% 0%;
+}
+#logo{
+    /* background-color: grey; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+#user2, #user2 a {
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+    font-family: 'Montserrat';
+    font-size: 93%;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+#user2:hover a{
+    color: #ff8a00;
+}
+#user1{
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 2px 5px;
+}
+#user1:hover {
+    background-color: #3D3838;
+}
+#ava {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0;
+    margin: 0;
+    justify-items: flex-start;
+    margin: 0 14px 0 0;
+}
+.row{
+    margin: 0 0;
+}
+#ednav{
+    margin: 0 -15px;
+}
+#ednav2{
+    padding: 0 0;
+}
+
+/* -------------------- */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .navbar{
     background-color: #1B1B1B;
     box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
@@ -30,10 +151,11 @@ body{
 .content{
     height: 100%;
     width: 100%; 
-    background-image: url(../photo/bgr2.png);
-    background-repeat: no-repeat;
+    background-color: #1B1B1B;
+    /* background-image: url(../photo/bgr2.png); */
+    /* background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center;
+    background-position: center; */
     padding-top: 4%; 
     
 }
@@ -127,14 +249,14 @@ a.menunav:active{
      
 }
 .room{
-    background-color: #1B1B1B ;
+    background-color: #3D3838 ;
     border-radius: 5%;
     height: 110%;
 }
 .room-list{
     margin-top: 5%;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 7.3%;
+    padding-left: 7.3%;
     /* position: static;    */
 } 
 .icon-public{
@@ -219,10 +341,11 @@ a.menunav:active{
 }
 .listp{
     font-size: 16px;
+    margin-left: 120%;
     
 }
 .cre-icon{
-    height: 25px;
+    height: 30px;
 }
 .crep{
     margin-left: 20%;
@@ -267,7 +390,7 @@ a.listp:visited{
     height: 100%;
     width: 100%;
     color: white;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     margin-top: 2%;
     /* text-align: center; */
 
@@ -447,7 +570,7 @@ a.listp:visited{
     border-radius: 50%;
 }
 #qtag1{
-    margin-left: 20%;
+    margin-left: 23%;
 }
 #tagq{
     color: #4A4A4A;
