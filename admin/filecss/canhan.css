@@ -1,10 +1,14 @@
-body{
+*{
+    padding: 0;
+    margin: 0;
+}
+body, footer{
     font-family: 'Montserrat';
 }
+
 .my-nav-bar {
     background-color: #1B1B1B;
     color: white;
-    height: 20%;
     position: relative;
     width: 100%;
     top: 0;
@@ -12,8 +16,7 @@ body{
     list-style-type: none;
     position: sticky;
     z-index: 500;
-    box-shadow: 0 3px 5px 0  black;
-
+    box-shadow: 0 3px 5px 0  black; 
 }
 
 .canchinh{
@@ -54,6 +57,15 @@ body{
 .hang{
     padding: 0 7.3%;
 }
+.row{
+    margin: 0 0;
+}
+#ednav{
+    margin: 0 -15px;
+}
+#ednav2{
+    padding: 0 0;
+}
 #logo{
     /* background-color: grey; */
     display: flex;
@@ -76,13 +88,10 @@ body{
     padding: 0;
 }
 #user2:hover a{
-    color: #C99CF4;
-}
-.dropdown{
-    position: absolute;
+    color: #ff8a00;
 }
 #user1{
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     background-color: white;
     align-items: center;
@@ -92,10 +101,6 @@ body{
 }
 #user1:hover {
     background-color: #3D3838;
-}
-img{
-    width: 100%;
-    padding: 50px 0;
 }
 #ava {
     vertical-align: middle;
@@ -111,7 +116,7 @@ img{
 }
 
 .bang {
-    background-image: linear-gradient(-90deg, #C99CF4,#6387FA);
+    background-image: linear-gradient(90deg, #e52e71,#ff8a00);
     width: 100%;
 }
 
@@ -151,7 +156,7 @@ img{
     color: #1B1B1B;
 }
 #tentv:hover {
-    color: #C99CF4;
+    color: #ff8a00;
 }
 .fas{
     padding-left: 10px;

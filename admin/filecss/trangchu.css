@@ -5,12 +5,7 @@
 body, footer{
     font-family: 'Montserrat';
 }
-.cover{
-    background-image: linear-gradient(90deg, #e52e71,#ff8a00);
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
+
 .my-nav-bar {
     background-color: #1B1B1B;
     color: white;
@@ -48,6 +43,7 @@ body, footer{
     font-weight: 800;
     text-align: center;
     /* background-color: darkblue; */
+    padding:;
 }
 #button:hover {
     background-color: white;
@@ -63,6 +59,12 @@ body, footer{
 }
 .row{
     margin: 0 0;
+}
+#ednav{
+    margin: 0 -15px;
+}
+#ednav2{
+    padding: 0 0;
 }
 #logo{
     /* background-color: grey; */
@@ -111,6 +113,13 @@ body, footer{
     margin: 0;
     justify-items: flex-start;
     margin: 0 14px 0 0;
+}
+
+.cover{
+    background-image: linear-gradient(90deg, #e52e71,#ff8a00);
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 #spaceman{

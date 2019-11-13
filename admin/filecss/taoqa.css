@@ -1,10 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body, footer{
     font-family: 'Montserrat';
 }
+
 .my-nav-bar {
     background-color: #1B1B1B;
     color: white;
-    height: 20%;
     position: relative;
     width: 100%;
     top: 0;
@@ -12,8 +16,7 @@ body, footer{
     list-style-type: none;
     position: sticky;
     z-index: 500;
-    box-shadow: 0 3px 5px 0  black;
-
+    box-shadow: 0 3px 5px 0  black; 
 }
 
 .canchinh{
@@ -54,15 +57,20 @@ body, footer{
 .hang{
     padding: 0 7.3%;
 }
+.row{
+    margin: 0 0;
+}
+#ednav{
+    margin: 0 -15px;
+}
+#ednav2{
+    padding: 0 0;
+}
 #logo{
     /* background-color: grey; */
     display: flex;
     justify-content: left;
     align-items: center;
-    color: white;
-    font-family: 'Montserrat';
-    font-weight: 800;
-    font-size: 40px;
     padding: 0;
     margin: 0;
 }
@@ -106,6 +114,7 @@ body, footer{
     justify-items: flex-start;
     margin: 0 14px 0 0;
 }
+
 .bang1{
     background-color: #3D3838;
     /* height: 900px; */
@@ -216,4 +225,78 @@ body, footer{
 #buttbl:hover{
     background-color: #1B1B1B;
     border: 2px solid #ff8a00;
+}
+
+footer{
+    background-color: white;
+    height: 400px;
+}
+.hoha{
+    /* background-color: pink; */
+    width: 100%;
+    margin: 12% 0 0 0;;
+    font-weight: 800;
+    font-size: 150%;
+}
+#readmore{
+    padding: 0;
+    /* background-color: aqua; */
+    position: absolute; 
+    bottom: 10%;
+    height: 10%;
+    color: #C99CF4;
+}
+#readmore:hover{
+    color: #9668D4;
+}
+
+.gachduoi{
+    background-color: #1B1B1B;
+    width: 15%;
+    height: 6%;
+    margin: 2% 0;
+
+}
+.dkiemail{
+    /* background-color: lightblue; */
+    margin: 5% 0;
+}
+.nhapem{
+    /* background-color: lightpink; */
+    display: flex;
+    height: 12%;
+    align-items: center;
+    padding: 0;
+    width: 77%;
+}
+input[type=email] {
+    background-color: #3D3838;
+    color: white;
+    width: 100%;
+    border-radius: 12px;
+    border-style: none;
+    margin: 0;
+    height: 90%;
+    padding: 0 5%;
+    position: relative;
+}
+.butt{
+    margin: 10px 0;
+}
+
+li a{
+    /* background-color: wheat; */
+    padding: 0;
+    margin: 5% 0;
+    justify-content: start;
+    font-weight: 600;
+    color: #1B1B1B;
+}
+li a:hover{
+    color: gray;
+}
+#tenlh{
+    margin: 5% 0;
+    font-weight: 600;
+    line-height: 2;
 }
