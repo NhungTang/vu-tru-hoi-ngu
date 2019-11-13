@@ -59,10 +59,6 @@ body, footer{
     display: flex;
     justify-content: left;
     align-items: center;
-    color: white;
-    font-family: 'Montserrat';
-    font-weight: 800;
-    font-size: 40px;
     padding: 0;
     margin: 0;
 }
@@ -203,7 +199,7 @@ body, footer{
     background-color: white;
     width: 80px;
     height: 80px;
-    border-radius: 12px;
+    border-radius: 10px;
     text-align: center;
 }
 #like{
@@ -281,17 +277,27 @@ body, footer{
 #ava3:hover{
     border: 5px solid #ff8a00;
 }
-.hashtag{
-    float: left;
+
+.thetags{
+    /* height: 15%; */
+    /* background-color: #e52e71; */
+    font-weight: 600;
     width: 10%;
     margin-right: 10px;
-    padding: 0;
+    padding: 2px;
     border: 2px solid gray;
-    border-radius: 12px;
+    border-radius: 8px;
     text-align: center;
+    font-size: 90%;
 }
-.hashtag a{
-    color: gainsboro;
+.thetags a:hover{
+    text-decoration: none;
+    background: -webkit-linear-gradient(90deg, #e52e71, #ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.thetags a{
+    color: gray;
 }
 
 .bangcmt{
@@ -318,42 +324,23 @@ body, footer{
     color: white;
     margin-right: 10px;
 }
-.cachbl, .cachbl a{
+.cachbl{
     background-color: white;
-    margin: 0 10px;
-    border-radius: 12px;
-    text-align: center;
+    padding: 2px 7px;
+    margin-right: 10px;
+    border-radius: 8px;
     font-weight: 800;
-    text-decoration: none;
+}
+.cachbl a{
     color: #1B1B1B;
-    padding: 4px 2px;
-}
-.cachbl:hover a{
-    color: white; 
-    background-color: #1B1B1B;
-}
-.cachbl:hover:hover{
-    background-color: #1B1B1B; 
-    border: 2px solid white;
-}
-/* .cachbl{
-    background-color: white;
-    margin-left: 15px;
-    padding: 3px 10px;
-    border-radius: 12px;
-    text-align: center;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.cachbl:hover{
-    background-color: #1B1B1B;
-    border: 2px solid white;
 }
 .cachbl a:hover{
-    color: white;
     text-decoration: none;
-} */
+    background: -webkit-linear-gradient(90deg, #e52e71, #ff8a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .comment{
     text-align: inherit;
     width: 90%;
@@ -417,23 +404,19 @@ body, footer{
 }
 #buttbl{
     padding: 5px 10px;
-    background-color: #ff8a00;
+    background-image: linear-gradient(90deg, #e52e71,#ff8a00);
     border-radius: 12px;
     display: block;
-    margin: 1px 0;
-    margin-bottom: 60px;
+    margin: 0;
+    margin-bottom: 100px;
+    font-weight: 800;
 }
 #buttbl a{
     color: #1B1B1B;
-    font-weight: 600;
 }
 #buttbl a:hover{
-    color: #ff8a00;
+    color: white;
     text-decoration: none;
-}
-#buttbl:hover{
-    background-color: #1B1B1B;
-    border: 2px solid #ff8a00;
 }
 footer{
     background-color: white;

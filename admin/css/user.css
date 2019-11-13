@@ -1,3 +1,112 @@
+/* navbar của duyên */
+.my-nav-bar {
+    background-color: #1B1B1B;
+    color: white;
+    position: relative;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    list-style-type: none;
+    position: sticky;
+    z-index: 500;
+    box-shadow: 0 3px 5px 0  black; 
+}
+
+.canchinh{
+    /* background-color: #6387FA; */
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#button, #button a {
+    color: white;
+    width: 80%;
+    font-size: 90%;
+    height: 30%;
+    margin: 8% 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    text-align: center;
+    /* background-color: darkblue; */
+    padding:;
+}
+#button:hover {
+    background-color: white;
+    /* font-size: 15px; */
+    border-radius: 5px;
+}
+
+#button:hover a{
+    color: #1B1B1B;
+}
+.hang{
+    padding: 0 7.3%;
+}
+#logo{
+    /* background-color: grey; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+#user2, #user2 a {
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #1B1B1B;
+    font-family: 'Montserrat';
+    font-size: 93%;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+#user2:hover a{
+    color: #ff8a00;
+}
+#user1{
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 2px 5px;
+}
+#user1:hover {
+    background-color: #3D3838;
+}
+#ava {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0;
+    margin: 0;
+    justify-items: flex-start;
+    margin: 0 14px 0 0;
+}
+
+
+/* -------------------- */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .navbar{
     background-color: #1B1B1B;
     box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
@@ -8,7 +117,12 @@
 body{
     font-family: Montserrat;
     font-weight: 400;
+    background-color: #1B1B1B;
 }
+#hang{
+    margin: 0 7.3%
+}
+
 .name{
     color: white;
     margin-left: 5%;
@@ -78,13 +192,14 @@ a.menunav:active{
 }
 
 .content{
-    background-color: black;
+    /* background-color: black; */
     height: 100%;
     width: 100%;
-    background-image: url(../photo/bgr2.png);
+    /* background-image: url(../photo/bgr2.png); */
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 120%;
     background-position: center;
+    padding: 0;
     padding-top: 5%;
     
 }
@@ -130,8 +245,8 @@ a.listp:visited{
 }
 
 .question{
-    margin-left: 13%;
-    margin-right: 13%;
+    margin-left: 7.3%;
+    margin-right: 7.3%;
     padding-top: 5%;
     /* background-image: url(bgr1.png);
     background-repeat: no-repeat;
@@ -139,13 +254,20 @@ a.listp:visited{
     background-position: center; */
 }
 .create-q{
-    background-color: black;
+    /* background-color: black;
     height: 100%;
     width: 100%;
     color: white;
     margin-left: 10%;
     margin-top: 1%;
-    /* text-align: center; */
+    text-align: center; */
+        /* background-color: black; */
+        height: 100%;
+        width: 100%;
+        color: white;
+        /* margin-left: 10%; */
+        margin-top: 1%;
+        /* text-align: center;*/
 
 }
 .qtag{
