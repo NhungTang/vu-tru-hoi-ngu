@@ -219,16 +219,17 @@ body, footer{
     color: #ff8a00;
     padding-right: 10px;
 }
-#noidungch{
-    /* background-color: ivory; */
+#noidungch {
+    background-color: #3C3737;
     text-align: inherit;
     padding: 0 20px;
     float: right;
     width: 90%;
     font-family: 'Montserrat';
-    font-weight: 800;
+    font-weight: 100;
     color: white;
     font-size: 180%;
+    border: 0px;
 }
 
 .cotthongtin{
@@ -241,10 +242,11 @@ body, footer{
     font-weight: 600;
     color: white;
 }
-#tentv{
+#tentv1 {
     color: white;
 }
-#tentv:hover {
+
+#tentv1:hover {
     color: #ff8a00;
 }
 .fas{
@@ -260,8 +262,15 @@ body, footer{
     font-weight: 600;
     color: white;
 }
-#chitiet{
+#chitiet {
+    background-color: #3C3737;
+    text-align: left;
+    width: 98%;
+    font-family: 'Montserrat';
+    font-weight: 100;
     color: white;
+    font-size: 120%;
+    border: 0px;
 }
 #ava2 {
     vertical-align: middle;
@@ -319,10 +328,22 @@ body, footer{
     font-size: 180%;
     color: white;
 }
-#thembl a{
+#thembl1 a{
     color: #ff8a00;
 }
-#thembl a:hover{
+#thembl1 a:hover{
+    color: white;
+}
+#thembl2 a{
+    color: #ff8a00;
+}
+#thembl2 a:hover{
+    color: white;
+}
+#thembl3 a{
+    color: #ff8a00;
+}
+#thembl3 a:hover{
     color: white;
 }
 .kengang1{
@@ -357,9 +378,10 @@ body, footer{
     text-align: inherit;
     width: 90%;
     color: white;
-    /* background-color: wheat; */
+     background-color: #1A1A1A;
     margin-left: 15px;
-    font-size: 80%;
+    font-size: 100%;
+    border: 0;
 }
 .comment2{
     text-align: inherit;
@@ -377,7 +399,7 @@ body, footer{
     margin-left: 15px;
     color: white;
 }
-#thembl{
+#thembl1, #thembl2, #thembl3 {
     float: left;
     margin-right: 50px;
 }
@@ -505,4 +527,6 @@ li a:hover{
     margin: 5% 0;
     font-weight: 600;
     line-height: 2;
-}
+}#edit {
+     display: none;
+ }

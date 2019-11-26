@@ -103,7 +103,7 @@
     margin: 0 14px 0 0;
 }
 .row{
-    margin: 0 0;
+    margin:inherit;
 }
 #ednav{
     margin: 0 -15px;
@@ -252,6 +252,7 @@ a.menunav:active{
     background-color: #3D3838 ;
     border-radius: 5%;
     height: 110%;
+
 }
 .room-list{
     margin-top: 5%;
@@ -276,6 +277,7 @@ a.menunav:active{
 } */
 .col-sm-3{
     position: static;
+
 }
 .room-img{
     /* height: 40% */

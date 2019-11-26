@@ -6,242 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="filecss/chitietcauhoi.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800,400i&display=swap&subset=vietnamese"
-        rel="stylesheet">
+          rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="icon" href="fileanh/symbol.png" type="image/gif" sizes="16x16">
     <title>Câu Hỏi - Vũ Trụ Hỏi Ngu</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/chitietcauhoi.js">
+    </script>
 </head>
 
 <body>
-    <div class="my-nav-bar">
-        <div class="row hang" id="ednav">
-            <div id="logo" class="col-sm-4">
-                <a href="trangchu.html">
-                    <img src="fileanh\logo.png" alt=logo style="height: 50px;">
-                </a>
-            </div>
-            <div class="col-sm-8" id="ednav2">
-                <div class="row">
-                    <div class="col-sm-2 canchinh">
-                        <div id="button" class="">
-                            <a href="trangchu.html">TRANG CHỦ</a>
-                        </div>
+<div class="my-nav-bar">
+    <div class="row hang" id="ednav">
+        <div id="logo" class="col-sm-4">
+            <a href="trangchu.html">
+                <img src="fileanh\logo.png" alt=logo style="height: 50px;">
+            </a>
+        </div>
+        <div class="col-sm-8" id="ednav2">
+            <div class="row">
+                <div class="col-sm-2 canchinh">
+                    <div id="button" class="">
+                        <a href="trangchu.html">TRANG CHỦ</a>
                     </div>
-                    <div class="col-sm-2 canchinh">
-                        <div id="button" class="">
-                            <a href="user.html">CÂU HỎI</a>
-                        </div>
+                </div>
+                <div class="col-sm-2 canchinh">
+                    <div id="button" class="">
+                        <a href="listQuestion.html">CÂU HỎI</a>
                     </div>
-                    <div class="col-sm-2 canchinh">
-                        <div id="button" class="">
-                            <a href="user1.html">ROOM Q&A</a>
-                        </div>
+                </div>
+                <div class="col-sm-2 canchinh">
+                    <div id="button" class="">
+                        <a href="listRoom.html">ROOM Q&A</a>
                     </div>
-                    <div class="col-sm-2 canchinh">
-                        <div id="button" class="">
-                            <a href="">BLOGS</a>
-                        </div>
+                </div>
+                <div class="col-sm-2 canchinh">
+                    <div id="button" class="">
+                        <a href="">BLOGS</a>
                     </div>
-                    <div class="col-sm-1"></div>
-                    <div id="user1" class="col-sm-3">
-                        <div id="user2">
-                            <a href="canhan.html">
-                                <div>
-                                    <img src="fileanh/chocute.jpg" alt="Avatar" id="ava">
-                                </div>
-                                <b>TÊN NGƯỜI DÙNG</b>
-                            </a>
-                        </div>
+                </div>
+                <div class="col-sm-1"></div>
+                <div id="user1" class="col-sm-3">
+                    <div id="user2">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="bang1">
-        <div class="row hang">
-            <div class="col-sm-9 test1">
-                <div class="dong">
-                    <div id="gachngang">
-                    </div>
-                    <div id="tieudech">
-                        CÂU HỎI
-                    </div>
+<div class="bang1">
+    <div class="row hang">
+        <div class="col-sm-9 test1" id="detail">
+            <div class="dong">
+                <div id="gachngang">
                 </div>
-                <div class="dong">
-                    <div id="chude">
-                        CHỦ ĐỀ CÂU HỎI
-                    </div>
-                    <div class="trangthai">
-                        <a href="" id="tentv" title="Sửa câu hỏi"><i class='fas fa-edit'></i></a>
-                        <a href="" id="tentv" title="Xóa câu hỏi"><i class='fas fa-trash-alt'></i></a>
-                        <a href="" id="tentv" title="Bình chọn cho câu hỏi"><i class='fas fa-thumbs-up'></i></a>
-                    </div>
-                </div>
-                <div class="dong2">
-                    <div id="binhchon">
-                        <b>3</b>
-                        <br>
-                        <a href="" id="like"><i class='fas fa-thumbs-up'></i></a>
-                    </div>
-                    <div id="noidungch">
-                        Nội dung câu hỏi ví dụ như tại sao mặt trời lại không có múi? Cá thì không có ngực?
-                    </div>
-                </div>
-                <div class="dong2" id="chitiet">
-                    Nội dung chi tiết của người tạo
-                </div>
-                <div class="dong">
-                    <div class="cotthongtin">
-                        <a href="">
-                            <div>
-                                <img src="fileanh/chocute.jpg" alt="Avatar" id="ava2">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cotthongtin">
-                        Thành viên <br>
-                        <a href="canhan.html" id="tentv"><b>Đồ Điên</b></a>
-                    </div>
-                    <div class="cotthongtin">
-                        Số bình luận <br>
-                        <b>100</b>
-                    </div>
-                    <div class="cotthongtin">
-                        Số lượt xem <br>
-                        <b>100</b>
-                    </div>
-                    <div class="cotthongtin2">
-                        Ngày tạo
-                        <br>
-                        <b>Ngày xx tháng yy năm 20xx</b>
-                    </div>
-                </div>
-                <div class="dong2">
-                    <div class="thetags">
-                        <a href="">#tagsth</a>
-                    </div>
-                    <div class="thetags">
-                        <a href="">#tagsth</a>
-                    </div>
-                    <div class="thetags">
-                        <a href="">#tagsth</a>
-                    </div>
-                    <div class="thetags">
-                        <a href="">#tagsth</a>
-                    </div>
-                    <div class="thetags">
-                        <a href="">#tagsth</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3 test2");">
-            </div>
-        </div>
-    </div>
-
-    <div class="bangcmt">
-        <div class="row hang">
-            <div class="dong" id="binhluan">
-                <b>100 bình luận</b>
-            </div>
-            <div id="thembl">
-                <a href="#gocmt"> <u> Thêm bình luận</u></a>
-            </div>
-            <div class="kengang1"></div>
-            <div id="cachchon">
-                Hiển thị bình luận theo:
-            </div>
-            <div class="cachbl">
-                <a href="">Bình chọn</a>
-            </div>
-            <div class="cachbl">
-                <a href=""> Thời gian</a>
-            </div>
-            <div class="dong2">
-                <a href="">
-                    <div id="">
-                        <img src="fileanh/onggia.jpg" alt="Avatar" id="ava3">
-                    </div>
-                </a>
-                <div class="comment">
-                    Kể từ khi Brendan Rodgers giữ ghế HLV trưởng giữa mùa bóng trước (từ ngày 26.2.2019), Leicester tích
-                    lũy số điểm chỉ thua đúng hai đội khác ở Premier League (đấy dĩ nhiên là Man City và Liverpool). Có
-                    hai kết luận. Thứ nhất, phong độ tốt trong mùa bóng này không phải là điều bất ngờ, bởi đấy đã là
-                    điều mà Rodgers xây dựng được cho Leicester trong nửa cuối mùa bóng vừa qua. Thứ hai, Leicester chỉ
-                    cần giữ nguyên mức độ ổn định như hiện thời là đủ khả năng lấy suất dự Champions League mùa tới.
-                    Chẳng cần đến một bất ngờ "động trời" nào, bởi những gì Leicester đã thể hiện liên tục suốt 7 tháng
-                    qua không còn là bất ngờ nữa.
-                    <br>
-                </div>
-            </div>
-            <div class="dong3">
-                <div class="cottlsua">
-                    <div id="thembl">
-                        <a href="">Like</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Trả lời</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Sửa</a>
-                    </div>
-                    <div class="cotthanhvien">
-                        Trả lời lúc <b>x/y/201x</b> bởi <a href="" id="tentv"> <b>Tên Thành viên</b> </a>
-                    </div>
+                <div id="tieudech">
+                    CÂU HỎI
                 </div>
             </div>
             <div class="dong">
-                <div class="kengang2">
+                <div id="chude">
+                    CHỦ ĐỀ CÂU HỎI
+                </div>
+                <div class="trangthai">
+                    <button id="tentv1"><i class='fas fa-edit'></i></button>
+                    <button id="tentv2"><i class='fas fa-trash-alt'></i></button>
+                    <button id="tentv3"><i class='fas fa-thumbs-up'></i></button>
+                    <input id="edit" type="submit" value="Edit"/>
                 </div>
             </div>
-            <div class="dong4">
-                <a href="">
-                    <div id="">
-                        <img src="fileanh/onggia.jpg" alt="Avatar" id="ava3">
-                    </div>
-                </a>
-                <div class="cmocm">
-                    <div id="tttvien">
-                        <a href="" id="tentv"><b>Tên thành viên</b></a> trả lời lúc <b>x/y/20xx:</b>
-                    </div>
-                    <div class="comment2">
-                        Kể từ khi Brendan Rodgers giữ ghế HLV trưởng giữa mùa bóng trước (từ ngày 26.2.2019), Leicester
-                        tích
-                        lũy số điểm chỉ thua đúng hai đội khác ở Premier League (đấy dĩ nhiên là Man City và Liverpool).
-                        Có
-                        hai kết luận. Thứ nhất, phong độ tốt trong mùa bóng này không phải là điều bất ngờ, bởi đấy đã
-                        là
-                    </div>
-                </div>
+            <div id="info">
+
             </div>
-            <div class="dong4">
-                <div class="cottlsua">
-                    <div id="thembl">
-                        <a href="">Like</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Trả lời</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Sửa</a>
-                    </div>
-                </div>
-            </div>
-            <div class="kengang1"></div>
-            <div class="dong3" id="binhluan">
-                <b>Bình luận của bạn</b>
-            </div>
-            <div class="nhapbl">
-                <textarea row hangs="5" id="gocmt" placeholder="Nhập bình luận..."></textarea>
-            </div>
-            <div id="buttbl">
-                <a href="">Gửi bình luận</a>
+            <div class="dong2" id="dong2">
+
             </div>
         </div>
+        <div class="col-sm-3 test2"></div>
+    </div>
+</div>
+</div>
+
+<div class="bangcmt">
+    <div class="row hang">
+        <div id="infoCmt"></div>
+        <div class="kengang1"></div>
+        <div class="dong3" id="binhluan">
+            <b>Bình luận của bạn</b>
+        </div>
+        <div class="nhapbl">
+            <textarea row hangs="5" id="gocmt" placeholder="Nhập bình luận..."></textarea>
+        </div>
+        <div id="buttbl">
+            <button id="btn">Gửi bình luận</button>
+        </div>
+    </div>
+</div>
 </body>
 <footer>
     <div class="row hang">
@@ -257,7 +121,7 @@
                 <input type="email" name="" id="" placeholder="Điền email vào đây">
             </div>
             <div class="butt">
-                <button> Click me! (≧▽≦) </button>
+                <button> Click me! (≧▽≦)</button>
             </div>
         </div>
         <div class="col-sm-4">
@@ -268,9 +132,9 @@
             <ul>
                 <li><a href="https://www.w3schools.com/">W3school</a></li>
                 <li><a href="https://webgradients.com/">Webgradients</a></li>
-                <li> <a href="https://groovy-lang.org/">Apache Groovy</a></li>
-                <li> <a href="https://spring.io/">Spring</a></li>
-                <li> <a href="https://getbootstrap.com/">Bootstrap</a></li>
+                <li><a href="https://groovy-lang.org/">Apache Groovy</a></li>
+                <li><a href="https://spring.io/">Spring</a></li>
+                <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
             </ul>
         </div>
         <div class="col-sm-4">

@@ -6,56 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/login.css">
-    <link rel="icon" href="fileanh/symbol.png" type="image/gif" sizes="16x16">
     <title>login</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/login.js" type="module"></script>
 </head>
 
 <body style="background-color: black;">
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="img">
-                <img class="img-space" src="photo/space.png" alt="img">
-            </div>
-            <div class="login">
-                <p class="welcome">Welcome!</p>
-                <form>
-                    <p class="text-login">User name</p>
-                    <input class="login-area" type="text" name="usernameid">
-                    <p class="text-login">Password</p>
-                    <input class="login-area" type="password" name="password">
-                    <br>
-                    <br>
-                    <input class="submit-login" type="submit" value="Login">
-                </form>
-            </div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="img">
+            <img class="img-space" src="photo/space.png" alt="img">
         </div>
-        <div class="col-sm-6">
-            <p class="create">Create new account</p>
-            <div class="sign-up">
-                <form class="form">
-                    <p class="text-up">User name</p>
-                    <input class="up-area" type="text" name="">
-                    <p class="text-up">Password</p>
-                    <input class="up-area" type="password" name="password">
-                    <p class="text-up">Enter the password again </p>
-                    <input class="up-area" type="password" name="passwordagain">
-                    <p class="text-up">Name display</p>
-                    <input class="up-area" type="text" name="namedis">
-                    <p class="text-up">Full name</p>
-                    <input class="up-area" type="text" name="fullname">
-                    <!-- <p class="text-up">Email</p>
-                    <input class="up-area" type="email" name="email"> -->
-                    <br>
-                    <br>
-                    <input class="submit-up" type="submit" value="Sign up">
-                </form>
-
-
-            </div>
-
+        <div class="login">
+            <p class="welcome">Welcome!</p>
+            <form>
+                <p class="text-login">User name</p>
+                <input id="username" class="login-area" type="text" name="usernameid">
+                <p class="text-login">Password</p>
+                <input id="password" class="login-area" type="password" name="password">
+                <br>
+                <br>
+                <input class="submit-login" type="submit" value="Login" id="login">
+            </form>
         </div>
     </div>
+    <div class="col-sm-6">
+        <p class="create">Create new account</p>
+        <div class="sign-up">
+            <form class="form">
+                <p class="text-up">User name</p>
+                <input class="up-area" type="text" name="" id="user-name">
+                <p class="text-up">Password</p>
+                <input class="up-area" type="password" name="password" id="pass-word">
+                <p class="text-up">Enter the password again </p>
+                <input class="up-area" type="password" name="passwordagain" id="re-pass">
+                <p class="text-up">Name display</p>
+                <input class="up-area" type="text" name="namedis" id="name-display">
+                <p class="text-up">Full name</p>
+                <input class="up-area" type="text" name="fullname" id="full-name">
+                <br>
+                <br>
+                <input class="submit-up" type="submit" value="Sign up"id="signup">
+            </form>
+
+
+        </div>
+
+    </div>
+</div>
 
 </body>

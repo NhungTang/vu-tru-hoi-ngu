@@ -7,23 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/ask.css">
+    <link rel="stylesheet" href="css/user.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800,400i&display=swap&subset=vietnamese"
-        rel="stylesheet">
-    <title>ask</title>
+    rel="stylesheet">
+    <link rel="icon" href="fileanh/symbol.png" type="image/gif" sizes="16x16">
+    <title>user</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/ask.js"></script>
+    <script src="js/listQuestion.js">
+    </script>
 </head>
 
 <body>
+
     <div class="my-nav-bar">
-        <div class="row hang" id="ednav">
+        <div class="row hang">
             <div id="logo" class="col-sm-4">
                 <a href="trangchu.html">
-                    <img src="fileanh\logo.png" alt=logo style="height: 50px;">
+                    <img src="fileanh\logo.png" alt=logo style="height: 50px;" >
                 </a>
             </div>
-            <div class="col-sm-8" id="ednav2">
+            <div class="col-sm-8">
                 <div class="row">
                     <div class="col-sm-2 canchinh">
                         <div id="button" class="">
@@ -48,12 +51,6 @@
                     <div class="col-sm-1"></div>
                     <div id="user1" class="col-sm-3">
                         <div id="user2">
-                            <a href="canhan.html">
-                                <div>
-                                    <img src="fileanh/chocute.jpg" alt="Avatar" id="ava">
-                                </div>
-                                <b>TÊN NGƯỜI DÙNG</b>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -63,46 +60,55 @@
 
 
     <div class="content">
-        <div class="row">
-            <div class="col-sm-8" id="col-sm-8">
-                <div class="heading">
-                    <p class="text-heading">Ask a public question</p>
-
-                </div>
+        <div class="create-q">
+            <div class="row" id="hang">
                 <div>
-                    <p class="text-title">Title<p>
-                            <input type="text" name="title" class="title" id="title">
+                    <a class="listp" href="">List</a>
                 </div>
-                <div class="content-text">
-                    <div class="text">
-                        <p class="text-title">Descriptions<p>
-                                <textarea name="text" class="textarea" id="descriptions"></textarea>
-                    </div>
-                    <div class="tag">
-                        <p class="text-tags">Tags</p>
-                        <input type="text" name="tags" class="tags" id="tags">
-
-                    </div>
+                <div class="qtag" id="qtag1">
 
                 </div>
-                <div class="submit">
-                    <button class="button" id="ask">Ask</button>
+                <div class="qtag">
+
                 </div>
+                <div class="qtag">
 
-            </div>
-            <div class="col-sm-4" id="col-sm-4">
-                <div class="guide">
-                    <!-- <div class="title-guide">
-                        <p>Làm theo các bước sau</p>
+                </div>
+                <div class="qtag">
 
-                    </div> -->
-                    <img src="photo\note.png" class="note">
+                </div>
+                <div class="qtag">
 
+                </div>
+                <div class="qtag">
+
+                </div>
+                <div class="crep">
+                    <a class="cre" href="ask.html" title="Tạo câu hỏi"><img src="photo/cre.png" class="cre-icon"></a>
                 </div>
 
             </div>
 
         </div>
+        <div class="question" id="question">
+
+        </div>
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+        </div>
 
     </div>
+
+    <!-- <div class="morethan">
+        <button class="more">
+            Post
+        </button>
+    </div> -->
 </body>
