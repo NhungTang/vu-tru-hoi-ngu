@@ -17,25 +17,30 @@ $(document).ready(function () {
             '                        </a>')
     }
 
-    $('#ask').click(function (e) {
+    $('#buttbl').click(function (e) {
         e.preventDefault();
+        var room_name = $('#roomname').val();
+        var topic = $('#topic').val();
         var title = $('#title').val();
-        var descriptions = $('#descriptions').val();
-        var tags = $('#tags').val();
+        var password = $('#password').val();
 
         var data = JSON.stringify({
-            "creator_fullname": sessionStorage.getItem("fullname"),
             "creator_username": username,
-            "tags": [tags],
+            "room_name": room_name,
+            "topic": topic,
             "title": title,
-            "descriptions": descriptions,
+            "password": password,
+            "status": 0,
+            "members": [
+                ""
+            ]
 
         });
 
         $.ajax({
             "async": true,
             "crossDomain": true,
-            "url": `http://${path}/question`,
+            "url": `http://${path}/room`,
             "method": "POST",
             "headers": {
                 "Content-Type": "application/json",

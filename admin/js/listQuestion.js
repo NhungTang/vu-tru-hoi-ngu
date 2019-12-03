@@ -1,19 +1,20 @@
-const path = '192.168.1.44:8880';
+const path = '192.168.43.254:8880';
 
 $(document).ready(function () {
     var $question = $('#question');
     const username = sessionStorage.getItem("username");
     const token = sessionStorage.getItem("token");
-    if(username){
+    if(!username || username === "Guest"){
+        $('#user2').append('<a href="login.html">\n' +
+            '                            <b style="color: black">LOGIN </b>\n' +
+            '                        </a>')
+    }else{
+
         $('#user2').append('<a href="canhan.html">\n' +
             '                            <div>\n' +
             '                                <img src="fileanh/chocute.jpg" alt="Avatar" id="ava">\n' +
             '                            </div>\n' +
             '                            <b>' + username + '</b>\n' +
-            '                        </a>')
-    }else{
-        $('#user2').append('<a href="login.html">\n' +
-            '                            <b style="color: black">LOGIN </b>\n' +
             '                        </a>')
     }
     $.ajax({

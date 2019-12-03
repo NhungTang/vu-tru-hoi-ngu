@@ -21,6 +21,7 @@
 </head>
 
 <body>
+
 <div class="my-nav-bar">
     <div class="row hang" id="ednav">
         <div id="logo" class="col-sm-4">
@@ -146,7 +147,32 @@
         </div>
         <div class="col-sm-2">
             <div class="createque">
-                <a href="">Tham gia</a>
+                <a href=""data-toggle="modal" data-target="#myModal">Tham gia</a>
+            </div>
+        </div>
+
+        <div class="modal" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="password"> ID Room
+                        <input type="text" name="pass" id="idRoom"class="password-bt">
+
+                    </div>
+                    <div class="password"> Password
+                        <input type="password" name="pass" class="password-bt" id="password">
+
+                    </div>
+
+                    <div class="button">
+                        <div class="row">
+                            <button type="button" class="btn btn-danger"
+                                    data-dismiss="modal">Close</button>
+                            <button id="btnJoin" type="submit" class="btn btn-success">Ok</button>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
         </div>
         <div class="col-sm-2">

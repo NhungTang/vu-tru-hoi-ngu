@@ -12,6 +12,9 @@
         rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="icon" href="fileanh/symbol.png" type="image/gif" sizes="16x16">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/chitietroomqa.js">
+    </script>
     <title>Room Q&A - Vũ Trụ Hỏi Ngu</title>
 </head>
 
@@ -48,12 +51,7 @@
                     <div class="col-sm-1"></div>
                     <div id="user1" class="col-sm-3">
                         <div id="user2">
-                            <a href="canhan.html">
-                                <div>
-                                    <img src="fileanh/chocute.jpg" alt="Avatar" id="ava">
-                                </div>
-                                <b>TÊN NGƯỜI DÙNG</b>
-                            </a>
+
                         </div>
                     </div>
                 </div>
@@ -61,294 +59,16 @@
         </div>
     </div>
 
-    <div class="bang1">
-        <div class="row hang">
-            <div class="col-sm-9 test1">
-                <div class="dong">
-                    <div id="gachngang">
-                    </div>
-                    <div id="tieudech">
-                        ROOM Q&A
-                    </div>
-                </div>
-                <div class="dong">
-                    <div id="chude">
-                        TÊN TOPIC
-                    </div>
-                    <div class="trangthai">
-                        <a href="" id="tentv">30 thành viên</a>
-                        <a href="" id="tentv" title="Thêm thành viên"> <i class='fas fa-user-plus'></i></a>
-                        <a href="" id="tentv" title="Sửa phòng"><i class='fas fa-edit'></i></a>
-                        <a href="" id="tentv" title="Xóa phòng"><i class='fas fa-trash-alt'></i></a>
-                        <a href="" id="tentv" title="Đổi mật khẩu"><i class='fas fa-key'></i></a>
-                    </div>
-                </div>
-                <div class="dong">
-                    <div id="noidungch">
-                        Tên Room không quá 20 ký tự
-                    </div>
-                </div>
-                <div class="dong">
-                    <div id="tieuderoom">
-                        Tiêu đề của room Tiêu đề của room Tiêu đề của room
-                    </div>
-                </div>
-                <div class="dong">
-                    <div class="cotthongtin">
-                        <a href="">
-                            <div>
-                                <img src="fileanh/chocute.jpg" alt="Avatar" id="ava2">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cotthongtin">
-                        Thành viên <br>
-                        <a href="" id="tentv"><b>Đồ Điên</b></a>
-                    </div>
-                    <div class="cotthongtin">
-                        Số câu hỏi <br>
-                        <b>3</b>
-                    </div>
-                    <div class="cotthongtin">
-                        Số lượt xem <br>
-                        <b>100</b>
-                    </div>
-                    <div class="cotthongtin2">
-                        Ngày tạo
-                        <br>
-                        <b>Ngày xx tháng yy năm 20xx</b>
-                    </div>
-                </div>
-                <div class="dong2">
-                    <div class="hashtag">
-                        <a href="">Tag Sth</a>
-                    </div>
-                    <div class="hashtag">
-                        <a href="">Tag Sth</a>
-                    </div>
-                    <div class="hashtag">
-                        <a href="">Tag Sth</a>
-                    </div>
-                    <div class="hashtag">
-                        <a href="">Tag Sth</a>
-                    </div>
-                    <div class="hashtag">
-                        <a href="">Tag Sth</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3 test2">
-            </div>
-        </div>
+    <div class="bang1" id="bang1">
+
     </div>
 
     <div class="bangcmt">
-        <div class="row hang">
-            <div class="dong" id="binhluan">
-                <b>3 câu hỏi</b>
-            </div>
-            <div id="thembl">
-                <a href="#gocmt"> <u> Thêm câu hỏi</u></a>
-            </div>
-            <div class="kengang1"></div>
-            <div id="cachchon">
-                Hiển thị câu hỏi theo:
-            </div>
-            <div class="cachbl">
-                <a href="">Bình chọn</a>
-            </div>
-            <div class="cachbl">
-                <a href=""> Thời gian</a>
-            </div>
-            <div class="dong2">
-                <a href="">
-                    <div id="">
-                        <img src="fileanh/onggia.jpg" alt="Avatar" id="ava3">
-                    </div>
-                </a>
-                <div class="comment">
-                    Kể từ khi Brendan Rodgers giữ ghế HLV trưởng giữa mùa bóng trước (từ ngày 26.2.2019), Leicester tích
-                    lũy số điểm chỉ thua đúng hai đội khác ở Premier League (đấy dĩ nhiên là Man City và Liverpool). Có
-                    hai kết luận. Thứ nhất, phong độ tốt trong mùa bóng này không phải là điều bất ngờ, bởi đấy đã là
-                    điều mà Rodgers xây dựng được cho Leicester trong nửa cuối mùa bóng vừa qua. Thứ hai, Leicester chỉ
-                    cần giữ nguyên mức độ ổn định như hiện thời là đủ khả năng lấy suất dự Champions League mùa tới.
-                    Chẳng cần đến một bất ngờ "động trời" nào, bởi những gì Leicester đã thể hiện liên tục suốt 7 tháng
-                    qua không còn là bất ngờ nữa.
-                    <br>
-                </div>
-            </div>
-            <div class="dong3">
-                <div class="cottlsua">
-                    <div id="thembl">
-                        <a href="">Like</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Trả lời</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Sửa</a>
-                    </div>
-                    <div class="cotthanhvien">
-                        Trả lời lúc <b>x/y/201x</b> bởi <a href="" id="tentv"> <b>Tên Thành viên</b> </a>
-                    </div>
-                </div>
-            </div>
-            <div class="dong">
-                <div class="kengang2">
-                </div>
-            </div>
-            <div class="dong4">
-                <a href="">
-                    <div id="">
-                        <img src="fileanh/onggia.jpg" alt="Avatar" id="ava3">
-                    </div>
-                </a>
-                <div class="cmocm">
-                    <div id="tttvien">
-                        <a href="" id="tentv"><b>Tên thành viên</b></a> trả lời lúc <b>x/y/20xx:</b>
-                    </div>
-                    <div class="comment2">
-                        Kể từ khi Brendan Rodgers giữ ghế HLV trưởng giữa mùa bóng trước (từ ngày 26.2.2019), Leicester
-                        tích
-                        lũy số điểm chỉ thua đúng hai đội khác ở Premier League (đấy dĩ nhiên là Man City và Liverpool).
-                        Có
-                        hai kết luận. Thứ nhất, phong độ tốt trong mùa bóng này không phải là điều bất ngờ, bởi đấy đã
-                        là
-                    </div>
-                </div>
-            </div>
-            <div class="dong4">
-                <div class="cottlsua">
-                    <div id="thembl">
-                        <a href="">Like</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Trả lời</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Sửa</a>
-                    </div>
-                </div>
-            </div>
-            <div class="dong">
-                <div class="kengang2">
-                </div>
-            </div>
-            <div class="dong4">
-                <a href="">
-                    <div id="">
-                        <img src="fileanh/onggia.jpg" alt="Avatar" id="ava3">
-                    </div>
-                </a>
-                <div class="cmocm">
-                    <div id="tttvien">
-                        <a href="" id="tentv"><b>Tên thành viên</b></a> trả lời lúc <b>x/y/20xx:</b>
-                    </div>
-                    <div class="comment2">
-                        Kể từ khi Brendan Rodgers giữ ghế HLV trưởng giữa mùa bóng trước (từ ngày 26.2.2019), Leicester
-                        tích
-                        lũy số điểm chỉ thua đúng hai đội khác ở Premier League (đấy dĩ nhiên là Man City và Liverpool).
-                        Có
-                        hai kết luận. Thứ nhất, phong độ tốt trong mùa bóng này không phải là điều bất ngờ, bởi đấy đã
-                        là
-                    </div>
-                </div>
-            </div>
-            <div class="dong4">
-                <div class="cottlsua">
-                    <div id="thembl">
-                        <a href="">Like</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Trả lời</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Sửa</a>
-                    </div>
-                </div>
-            </div>
-            <div class="kengang1"></div>
-            <div class="dong2">
-                <a href="">
-                    <div id="">
-                        <img src="fileanh/onggia.jpg" alt="Avatar" id="ava3">
-                    </div>
-                </a>
-                <div class="comment">
-                    Kể từ khi Brendan Rodgers giữ ghế HLV trưởng giữa mùa bóng trước (từ ngày 26.2.2019), Leicester tích
-                    lũy số điểm chỉ thua đúng hai đội khác ở Premier League (đấy dĩ nhiên là Man City và Liverpool). Có
-                    hai kết luận. Thứ nhất, phong độ tốt trong mùa bóng này không phải là điều bất ngờ, bởi đấy đã là
-                    điều mà Rodgers xây dựng được cho Leicester trong nửa cuối mùa bóng vừa qua. Thứ hai, Leicester chỉ
-                    cần giữ nguyên mức độ ổn định như hiện thời là đủ khả năng lấy suất dự Champions League mùa tới.
-                    Chẳng cần đến một bất ngờ "động trời" nào, bởi những gì Leicester đã thể hiện liên tục suốt 7 tháng
-                    qua không còn là bất ngờ nữa.
-                    <br>
-                </div>
-            </div>
-            <div class="dong3">
-                <div class="cottlsua">
-                    <div id="thembl">
-                        <a href="">Like</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Trả lời</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Sửa</a>
-                    </div>
-                    <div class="cotthanhvien">
-                        Trả lời lúc <b>x/y/201x</b> bởi <a href="" id="tentv"> <b>Tên Thành viên</b> </a>
-                    </div>
-                </div>
-            </div>
-            <div class="dong">
-                <div class="kengang2">
-                </div>
-            </div>
-            <div class="dong4">
-                <a href="">
-                    <div id="">
-                        <img src="fileanh/onggia.jpg" alt="Avatar" id="ava3">
-                    </div>
-                </a>
-                <div class="cmocm">
-                    <div id="tttvien">
-                        <a href="" id="tentv"><b>Tên thành viên</b></a> trả lời lúc <b>x/y/20xx:</b>
-                    </div>
-                    <div class="comment2">
-                        Kể từ khi Brendan Rodgers giữ ghế HLV trưởng giữa mùa bóng trước (từ ngày 26.2.2019), Leicester
-                        tích
-                        lũy số điểm chỉ thua đúng hai đội khác ở Premier League (đấy dĩ nhiên là Man City và Liverpool).
-                        Có
-                        hai kết luận. Thứ nhất, phong độ tốt trong mùa bóng này không phải là điều bất ngờ, bởi đấy đã
-                        là
-                    </div>
-                </div>
-            </div>
-            <div class="dong4">
-                <div class="cottlsua">
-                    <div id="thembl">
-                        <a href="">Like</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Trả lời</a>
-                    </div>
-                    <div id="thembl">
-                        <a href="">Sửa</a>
-                    </div>
-                </div>
-            </div>
-            <div class="kengang1"></div>
-            <div class="dong3" id="binhluan">
-                <b>Câu hỏi của bạn</b>
-            </div>
-            <div class="nhapch">
-                <textarea row hang hangs="5" id="gocmt" placeholder="Nhập câu hỏi..."></textarea>
-            </div>
-            <div id="buttch">
-                <a href="">Gửi câu hỏi</a>
-            </div>
+        <div class="row hang" id="bangcmt">
+
+
         </div>
+    </div>
 
 </body>
 <footer>

@@ -1,4 +1,7 @@
 /* navbar của duyên */
+body, footer{
+    font-family: 'Montserrat';
+}
 .my-nav-bar {
     background-color: #1B1B1B;
     color: white;
@@ -102,9 +105,7 @@
     justify-items: flex-start;
     margin: 0 14px 0 0;
 }
-.row{
-    margin:inherit;
-}
+
 #ednav{
     margin: 0 -15px;
 }
@@ -254,7 +255,7 @@ a.menunav:active{
     height: 110%;
 
 }
-.room-list{
+.row{
     margin-top: 5%;
     padding-right: 7.3%;
     padding-left: 7.3%;
@@ -600,3 +601,66 @@ a.listp:visited{
 }
   
 .pagination a:hover:not(.active) {background-color: #ddd;}
+.gachduoi{
+    background-color: #1B1B1B;
+    width: 15%;
+    height: 6%;
+    margin: 2% 0;
+
+}
+.dkiemail{
+    /* background-color: lightblue; */
+    margin: 5% 0;
+}
+.nhapem{
+    /* background-color: lightpink; */
+    display: flex;
+    height: 12%;
+    align-items: center;
+    padding: 0;
+    width: 77%;
+}
+input[type=email] {
+    background-color: #3D3838;
+    color: white;
+    width: 100%;
+    border-radius: 12px;
+    border-style: none;
+    margin: 0;
+    height: 90%;
+    padding: 0 5%;
+    position: relative;
+}
+.butt{
+    margin: 10px 0;
+}
+li{
+    margin: 5% 0;
+}
+li a{
+    /* background-color: wheat; */
+    padding: 0;
+    margin: 5% 0;
+    justify-content: start;
+    font-weight: 600;
+    color: #1B1B1B;
+}
+li a:hover{
+    color: gray;
+}
+#tenlh{
+    margin: 5% 0;
+    font-weight: 600;
+    line-height: 2;
+}
+footer{
+    background-color: white;
+    height: 400px;
+}
+.hoha{
+    /* background-color: pink; */
+    width: 100%;
+    margin: 12% 0 0 0;;
+    font-weight: 800;
+    font-size: 150%;
+}

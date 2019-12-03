@@ -1,4 +1,4 @@
-const path = '192.168.1.44:8880';
+const path = '192.168.43.254:8880';
 
 $(document).ready(function () {
     $('#login').click(function (e) {
@@ -9,6 +9,31 @@ $(document).ready(function () {
         var data = JSON.stringify({
             "username": $username,
             "password": $password
+        });
+
+        $.ajax({
+            "async": true,
+            "crossDomain": true,
+            "url": `http://${path}/login`,
+            "method": "POST",
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "data": data,
+            "processData": false,
+        }).done(function (response) {
+            window.location.href = "trangchu.html";
+            const res = JSON.parse(response)
+            sessionStorage.setItem("token", res.token);
+            sessionStorage.setItem("username", res.username);
+        });
+    });
+    $('#loginFake').click(function (e) {
+        e.preventDefault();
+
+        var data = JSON.stringify({
+            "username": "Guest",
+            "password": "Guest"
         });
 
         $.ajax({

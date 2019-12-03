@@ -188,6 +188,7 @@ body, footer{
     font-size: 130%;
     margin: 0;
     text-align: center;
+    border: 0;
 }
 .createque, .createque a{
     background-color: white;
@@ -249,6 +250,28 @@ body, footer{
 #tentv1:hover {
     color: #ff8a00;
 }
+#tentv2 {
+    color: white;
+}
+
+#tentv2:hover {
+    color: #ff8a00;
+}
+#tentv3 {
+    color: white;
+}
+
+#tentv3:hover {
+    color: #ff8a00;
+}
+#edit {
+    color: white;
+}
+
+#edit:hover {
+    color: #ff8a00;
+}
+
 .fas{
     padding-left: 10px;
 }
@@ -270,7 +293,7 @@ body, footer{
     font-weight: 100;
     color: white;
     font-size: 120%;
-    border: 0px;
+    border: 0;
 }
 #ava2 {
     vertical-align: middle;
@@ -428,6 +451,12 @@ body, footer{
 #gocmt{
     margin: 40px 0;
     height: 200px;
+    border-radius: 12px;
+    width: 100%;
+}
+.gorep{
+    margin: 40px 0;
+    height: 150px;
     border-radius: 12px;
     width: 100%;
 }

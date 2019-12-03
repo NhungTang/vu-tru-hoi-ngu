@@ -15,7 +15,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="icon" href="fileanh/symbol.png" type="image/gif" sizes="16x16">
-    <title>Tạo Room Q&A - Vũ Trụ Hỏi Ngu</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/taoqa.js"></script>
+    <title>Tạo Room Q&A </title>
 </head>
 
 <body>
@@ -74,18 +76,13 @@
                         <div class="room_name">
                             <b>Tên Room</b>
                             <div class="">
-                                <input type="text" class="boxtitle" placeholder="Tên phòng không quá 30 ký tự...">
+                                <input type="text" id="roomname" class="boxtitle" placeholder="Tên phòng không quá 30 ký tự...">
                             </div>
                         </div>
                         <div class="topic">
                             <b>Chọn Topic</b>
                             <div class="boxtopic">
-                                <select class="browser-default custom-select custom-select-lg">
-                                    <option selected>Chọn Topic</option>
-                                    <option value="1">Sự Nghiệp</option>
-                                    <option value="2">Tình Bạn</option>
-                                    <option value="3">Ăn Chơi</option>
-                                </select>
+                                <input type="text" id="topic" class="boxtitle" placeholder="Nhập topic...">
                             </div>
                         </div>
                     </div>
@@ -93,20 +90,14 @@
                         <div class="passroom">
                             <b>Nhập Mật Khẩu</b>
                             <div>
-                                <input type="password" name="" class="boxtitle" placeholder="Nhập mật khẩu...">
+                                <input type="password" id="password" name="" class="boxtitle" placeholder="Nhập mật khẩu...">
                             </div>
                         </div>
                         <div class="title">
                             <b>Tiêu Đề</b>
                             <div class="">
-                                <input type="text" class="boxtitle" placeholder="Nhập tiêu đề tại đây...">
+                                <input type="text" id="title" class="boxtitle" placeholder="Nhập tiêu đề tại đây...">
                             </div>
-                        </div>
-                    </div>
-                    <div class="tags">
-                        <b>Thẻ Tags</b>
-                        <div>
-                            <input type="text" class="boxtitle" placeholder="Nhập tags liên quan...">
                         </div>
                     </div>
                 </div>
