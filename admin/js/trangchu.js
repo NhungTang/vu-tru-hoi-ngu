@@ -89,12 +89,12 @@ $(document).ready(function () {
                     '                                <p>Nhập password để vào room</p>\n' +
                     '                            </div>\n' +
                     '                            <div class="password">\n' +
-                    '                                <input type="password" name="pass" class="password-bt" id="password2">\n' +
+                    '                                <input type="password" name="pass" class="password-bt" id="password2'+id+'">\n' +
                     '                            </div>\n' +
                     '                            <div class="button">\n' +
                     '                                <div class="row">\n' +
                     '                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>\n' +
-                    '                                    <button id="btnJoin2" type="submit" class="btn btn-success">Ok</button>\n' +
+                    '                                    <button id="btnJoin2'+id+'" type="submit" class="btn btn-success">Ok</button>\n' +
                     '                                </div>\n' +
                     '                            </div>\n' +
                     '                        </div>\n' +
@@ -102,8 +102,8 @@ $(document).ready(function () {
                     '                </div>\n' +
                     '            </div>\n' +
                     '        </div>');
-                $('#btnJoin2').on("click", function () {
-                    var pass = $('#password2').val();
+                $('#btnJoin2'+id+'').on("click", function () {
+                    var pass = $('#password2'+id+'').val();
 
                     $.ajax({
                         "async": true,
